@@ -387,40 +387,67 @@
       </div>
       <div class="form-wrapper">
       <div class="form-wrapper-innter">
-      <form action="#" method="POST">
+      <form data-success-redirect action="#" method="POST">
          <div class="row">
             <div class="title">Name <span class="required">*</span></div>
             <div class="column-6">
                <div class="form-group">
-               <input type="text" class="field-element">
+               <input type="text"
+                      name="First Name"
+                      maxlength="30"
+                      class="field-element"
+                      required
+               >
                <label for="#">First Name</label>
                </div>
             </div>
             <div class="column-6">
                <div class="form-group">
-               <input type="text" class="field-element">
+               <input type="text"
+                      name="Last Name"
+                      maxlength="30"
+                      class="field-element"
+                     required>
                <label for="#">Last Name</label>
             </div>
             </div>
             <div class="column-12">
            <div class="title">Email Address <span class="required">*</span></div>
             <div class="form-group">
-               <input class="field-element"   required="" type="email" autocomplete="email" spellcheck="false">
+               <input class="field-element"
+                      name="Email Address"
+                      required
+                      type="email"
+                      autocomplete="email"
+                      spellcheck="false"
+               >
 
             </div>
             <div class="title">Subject <span class="required">*</span></div>
             <div class="form-group">
-               <input class="field-element"   required="" type="text" autocomplete="email" spellcheck="false">
+               <input class="field-element"
+                      name="Subject"
+                      required
+                      type="text"
+                      autocomplete="email"
+                      spellcheck="false"
+               >
 
             </div>
             <div class="title">Subject <span class="required">*</span></div>
             <div class="form-group">
-          
-              <textarea name="" id="" cols="30" rows="8" class="field-element"  style="resize: none;"></textarea>
+              <textarea
+                      name="Message"
+                      cols="30"
+                      rows="8"
+                      class="field-element"
+                      required
+                      style="resize: none;"></textarea>
             </div>
 
             <div class="form-group">
-               <input type="button" type="submit" value="Submit" class="contact-form-btn">
+               <input type='hidden' name='form-name' value='form 1' />
+               <input type="submit" type="submit" value="Submit" class="contact-form-btn">
             </div>
             </div>
          </div>
@@ -434,9 +461,7 @@
 
           </div>
           </div>
-        
          </section>
-
      </div>
    </body>
 </html>
