@@ -110,7 +110,7 @@ video {
 }
 
 .logo-details h1 {
-	line-height: 1em;
+	line-height: 0em;
 	margin-top: 0;
 	margin-bottom: 0;
 	font-size: 130px;
@@ -121,7 +121,7 @@ video {
 	font-style: normal;
 	text-transform: none;
 	letter-spacing: .1em;
-	line-height: 1.5em;
+
 	color: #fff;
 }
 
@@ -132,7 +132,7 @@ video {
 
 .logo-details img {
 	max-height: 51px;
-	margin-bottom: 25px;
+	margin-bottom: 20px;
 }
 
 .basic-link-button {
@@ -1025,5 +1025,12 @@ a.social-icon-wrapper img {
 	{
 		padding:15px;
 	}
-	
+	.slide-layer.content-wrapper .slider-layer-content {
+		height: auto;
+		position: absolute;
+		width: 100%;
+		bottom: auto;
+		top: 50%;
+		transform: translate(0, -50%);
+	}
 }
