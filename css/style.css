@@ -107,10 +107,11 @@ video {
 
 .logo-details {
 	text-align: center;
+	min-width: 384px;
 }
 
 .logo-details h1 {
-	line-height: 0em;
+ 
 	margin-top: 0;
 	margin-bottom: 0;
 	font-size: 130px;
@@ -121,8 +122,7 @@ video {
 	font-style: normal;
 	text-transform: none;
 	letter-spacing: .1em;
-
-	color: #fff;
+    color: #fff;
 }
 
 .row {
@@ -185,7 +185,7 @@ video {
 }
 
 .content-details {
-	padding-left: 1em;
+	padding-left: 0em;
 	max-width: 720px;
 	margin: 0 auto;
 }
@@ -758,6 +758,10 @@ a.social-icon-wrapper img {
 	section.social-impact.welcome-page.founder-team-content, section.social-impact.welcome-page.client-logo-wrapper {
 		padding: 0 0px;
 	}
+	.logo-details
+	{
+		min-width: auto;
+	}
 }
 
 @media (max-width:900px)
@@ -987,6 +991,14 @@ a.social-icon-wrapper img {
 	}
 	.header-wrapper {
 		display: none;
+	}
+	.banner-inner-wrapper, .content-wrapepr
+	{
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	.banner-inner-wrapper.index-banner {
+		padding-top: 150px;
 	}
 }
 @media (max-width:640px)
