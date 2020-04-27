@@ -185,7 +185,7 @@ video {
 }
 
 .content-details {
-	padding-left: 2em;
+	padding-left: 1em;
 	max-width: 720px;
 	margin: 0 auto;
 }
@@ -219,8 +219,9 @@ a {
 }
 
 .logo-link {
-	padding: 13.9px 24px;
-	display: block;
+	padding: 11px 24px;
+    display: block;
+    margin-top: 6px;
 }
 
 .nav-right {
@@ -330,7 +331,7 @@ section.banner-section-wrapper {
 }
 
 .sqs-block-content {
-	max-width: 66%;
+	max-width: 72%;
 	margin: auto;
 	padding: 0 116px 48.05px 116px;
 }
@@ -697,6 +698,28 @@ a.social-icon-wrapper img {
 		object-position: center;
 	}
 }
+@media(max-width :1400px)
+{
+	.page-content
+	{
+		padding: 64px 172px;
+	}
+	.Responsible-Investors .page-content
+	{
+		max-width: 80.55%;
+	}
+	.page-content.ceo-content {
+		padding: 64px 30px;
+	}
+	section.social-impact.welcome-page.founder-team-content,section.social-impact.welcome-page.client-logo-wrapper {
+		padding: 0 99px;
+	}
+	.form-wrapper {
+		max-width: 751px;
+		margin: auto;
+		padding: 15px;
+	}
+}
 @media (max-width:1199px) {
 	.link-group-wrapper {
 		display: none;
@@ -728,6 +751,12 @@ a.social-icon-wrapper img {
 	.sqs-block-content
 	{
 		max-width: 75%;
+	}
+	.Responsible-Investors .page-content {
+		max-width: 100%;
+	}
+	section.social-impact.welcome-page.founder-team-content, section.social-impact.welcome-page.client-logo-wrapper {
+		padding: 0 0px;
 	}
 }
 
@@ -940,7 +969,11 @@ a.social-icon-wrapper img {
 	}
 	.page-content
 	{
-		padding:30px;
+		padding:48px 17px;
+		margin-top: 15px;
+	}
+	.page-content.ceo-content {
+		padding: 0;
 	}
 	.content-wrapepr .sqs-block-content
 	{
@@ -1032,5 +1065,23 @@ a.social-icon-wrapper img {
 		bottom: auto;
 		top: 50%;
 		transform: translate(0, -50%);
+	}
+	.sqs-block-content h1
+	{
+		font-size: 25px;
+	}
+	.mobile-header-wrapper
+	{
+	background: #000;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    z-index: 1001;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 7.9px 12px;
+    align-items: center;
+	padding-top: 14px;
 	}
 }
