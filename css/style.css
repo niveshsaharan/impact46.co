@@ -15,7 +15,10 @@
 	font-family: Montserrat-Bold;
 	src: url(../fonts/Montserrat-Bold.otf);
 }
-
+@font-face {
+	font-family: Montserrat-Regular;
+	src: url(../fonts/Montserrat-Regular.ttf);
+}
 @font-face {
 	font-family: proxima-nova;
 	src: url(../fonts/ProximaNova-Regular.otf);
@@ -36,7 +39,7 @@ html {
 }
 
 strong {
-	font-family: Montserrat-semibold;
+	font-family: Montserrat-Regular;
 	font-weight: bold;
 }
 
