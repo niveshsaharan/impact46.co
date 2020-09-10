@@ -686,6 +686,38 @@ a.social-icon-wrapper img {
 	transition-delay: 0.5s;
 	top: 62px;
 }
+
+.bottom-text p a {
+	color: #0095da;
+	text-decoration: underline;
+}
+
+
+.site-content h1 {
+	font-family: Montserrat-bold;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    letter-spacing: .04em;
+}
+.site-content p {
+	text-align: justify;
+}
+.site-content span.content-updated {
+	font-size: 14px;
+}
+.site-content h2,h3 {
+	font-size: 18px;
+	font-family: Montserrat-bold;
+	font-weight: 700;
+	letter-spacing: .04em;
+}
+.site-content ul, li {
+	list-style-type: disc!important;
+}
+.site-content p a {
+	color: #0095da;
+}
 /* end */
 @media (min-width: 1199px)
 {
