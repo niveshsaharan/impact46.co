@@ -215,6 +215,7 @@ video {
 	padding: 12px 92px;
 	overflow: hidden;
 	display: flex;
+	align-items: center;
 }
 
 a {
@@ -944,8 +945,7 @@ li {
 		text-align: center !important;
 		z-index: 6;
 	}
-
-	.col-6 {
+	.ceo-column-3, .ceo-column-9 {
 		width: 100%;
 	}
 
@@ -1254,7 +1254,7 @@ li {
 }
 
 .b-corp-slide-layer img {
-	max-width: 150px;
+	max-width: 75px;
 }
 
 .b-corp img {
@@ -1280,11 +1280,6 @@ li {
 	.page-content .content-column-wrap p {
 		padding-right: 45px;
 	}
-
-	.col-6 {
-		width: 50%;
-	}
-
 	.b-corp {
 		margin-left: 55px;
 	}
