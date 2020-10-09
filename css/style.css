@@ -1283,4 +1283,27 @@ li {
 	.b-corp {
 		margin-left: 55px;
 	}
+	.ceo-column-10 {
+		width: 83.33%;
+	}
+	
+	.ceo-column-2 {
+		width: 16.66%;
+	}
+}
+
+
+.bottom_address {
+	display: flex;
+	display: -webkit-flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.bottom_address img {
+	max-width: 95px;
+}
+
+.img-responsive{
+width: 100%;
+height: auto;
 }
