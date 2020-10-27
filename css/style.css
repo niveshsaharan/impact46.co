@@ -1307,3 +1307,7 @@ li {
 width: 100%;
 height: auto;
 }
+
+.services-for-corporates{
+	background-image: url(../assets/services-for-corporates.png);
+}
