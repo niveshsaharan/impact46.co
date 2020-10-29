@@ -39,6 +39,15 @@ $("a.Mobile-overlay-nav-item").click(function(){
   $(".nav-inner a, .Mobile-overlay-nav-item").on('click', smooth_scroll(0));
 
 
+// section description toggle on mobile
+if (window.matchMedia("(max-width: 767px)").matches)  
+{  
+  $(".m-text-toggle").click(function(){
+    $(this).children("p").toggle();
+  });
+}
+
+
    });
 
 

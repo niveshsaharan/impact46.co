@@ -708,7 +708,7 @@ a.social-icon-wrapper img {
 .Mobile-overlay-menu.active {
 	left: 0;
 	transition-delay: 0.5s;
-	top: 106px;
+	top: 62px;
 }
 
 .bottom-text p a {
@@ -945,7 +945,9 @@ li {
 		text-align: center !important;
 		z-index: 6;
 	}
-	.ceo-column-3, .ceo-column-9 {
+
+	.ceo-column-3,
+	.ceo-column-9 {
 		width: 100%;
 	}
 
@@ -959,6 +961,7 @@ li {
 
 	.b-corp {
 		order: 2;
+		display: none;
 	}
 }
 
@@ -1215,12 +1218,22 @@ li {
 	}
 
 	.slide-layer.content-wrapper .slider-layer-content {
-		height: auto;
-		position: absolute;
+		height: 100%;
 		width: 100%;
-		bottom: auto;
-		top: 50%;
-		transform: translate(0, -50%);
+		position: relative;
+		z-index: 9;
+		padding-top: 45px;
+	}
+
+	.slider-layer-content:before {
+		content: "";
+		position: absolute;
+		background-color: rgb(0 0 0 / 26%);
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		z-index: -1;
 	}
 
 	.sqs-block-content h1 {
@@ -1240,13 +1253,24 @@ li {
 		align-items: center;
 		padding-top: 14px;
 	}
+
+	.b-corp-slide-layer {
+		z-index: 6;
+		padding-right: 22px !important;
+		bottom: 0;
+		text-align: right !important;
+	}
+
+	.m-text-toggle p {
+		display: none;
+	}
 }
 
 
 /*B corp logo placement*/
 .b-corp-slide-layer {
 	position: absolute;
-	top: 0;
+	/* top: 0; */
 	right: 0;
 	padding: 20px 60px 0px;
 	width: 100%;
@@ -1280,13 +1304,15 @@ li {
 	.page-content .content-column-wrap p {
 		padding-right: 45px;
 	}
+
 	.b-corp {
 		margin-left: 55px;
 	}
+
 	.ceo-column-10 {
 		width: 83.33%;
 	}
-	
+
 	.ceo-column-2 {
 		width: 16.66%;
 	}
@@ -1299,15 +1325,16 @@ li {
 	flex-wrap: wrap;
 	align-items: center;
 }
+
 .bottom_address img {
 	max-width: 95px;
 }
 
-.img-responsive{
-width: 100%;
-height: auto;
+.img-responsive {
+	width: 100%;
+	height: auto;
 }
 
-.services-for-corporates{
+.services-for-corporates {
 	background-image: url(../assets/services-for-corporates.png);
 }
