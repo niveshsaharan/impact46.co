@@ -902,6 +902,7 @@ li {
 
 	.logo-details h1 {
 		line-height: 1.5em;
+		display: none;
 	}
 
 	.content-details {
@@ -961,6 +962,12 @@ li {
 
 	.b-corp {
 		order: 2;
+		display: none;
+	}
+	.m-bcorp{
+		display: inline-block !important;
+	}
+	.d-bcorp{
 		display: none;
 	}
 }
@@ -1264,6 +1271,14 @@ li {
 	.m-text-toggle p {
 		display: none;
 	}
+	.basic-link-button{
+		font-size: 14px;
+	}
+	.basic-link-button a{
+		max-width: 180.21px;
+		min-width: 180.21px;
+		text-align: center;
+	}
 }
 
 
@@ -1337,4 +1352,7 @@ li {
 
 .services-for-corporates {
 	background-image: url(../assets/services-for-corporates.png);
+}
+.m-bcorp{
+	display: none;
 }
