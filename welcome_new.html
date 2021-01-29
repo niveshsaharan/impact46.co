@@ -36,6 +36,101 @@
 }
 
 @media (max-width: 680px) {
+
+	section.social-impact .content-column-wrap img {
+		margin: 0 auto;
+		max-width: 268px;
+	}
+	
+	section.social-impact .content-column-wrap {
+    text-align: center;
+}
+
+	.banner-with-text-wrapper.contact-us-banner {
+		background-attachment: scroll;
+		margin-top: 20px;
+	}
+
+	.bottom_address {
+		justify-content: space-between;
+	}
+
+	section.social-impact.welcome-page.founder-team-content button.read__less {
+		margin-bottom: 40px;
+		margin-bottom: 40px;
+	}
+
+	.banner-with-text-wrapper.founder-team,
+	.banner-with-text-wrapper.client-banner	{
+		background-image: none;
+		background-color: #fff !important;
+		margin: 0;
+	}
+	
+	.banner-with-text-wrapper.founder-team:after,
+	.banner-with-text-wrapper.client-banner:after 	{
+		display:none;
+	}
+	
+	.banner-with-text-wrapper.founder-team .content-wrapepr,
+	.banner-with-text-wrapper.client-banner .content-wrapepr	{
+		display: flex;
+		display: -webkit-flex;
+		padding: 0px 10px 10px;
+	}
+	
+	.banner-with-text-wrapper.founder-team .content-wrapepr .sqs-block-content,
+	.banner-with-text-wrapper.client-banner .content-wrapepr .sqs-block-content	{
+		flex-basis: 60%;
+		padding: 0 !important;
+		margin-top: 0;
+		text-align: left;
+	}
+	
+	
+	.banner-with-text-wrapper.founder-team .content-wrapepr .sqs-block-content h1,
+	.banner-with-text-wrapper.client-banner .content-wrapepr .sqs-block-content h1	{
+		font-size: 16px;
+		margin-bottom: 0;
+		color: #000;
+		text-align: left !important;
+	}
+
+	.banner-with-text-wrapper.founder-team .content-wrapepr .sqs-block-content p,
+	.banner-with-text-wrapper.client-banner .content-wrapepr .sqs-block-content p {
+		-webkit-line-clamp: 5;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		display: -webkit-box !important;
+		text-overflow: ellipsis;
+		margin-top: 3px;
+		margin-bottom: 0;
+		color: #000;
+		text-align: left;
+		padding-top: 0;
+		font-size: 13px;
+		line-height: 20px;
+	}
+	
+	section.social-impact.welcome-page.founder-team-content,
+	section.social-impact.welcome-page.client-logo-wrapper	{
+		display: none;
+	}
+	
+	section.social-impact.welcome-page.client-logo-wrapper .row {
+		align-items: flex-start;
+	}
+	
+	section.social-impact.welcome-page.client-logo-wrapper button.read__less {
+		text-align: left;
+		padding-left: 30px;
+		margin-bottom: 20px;
+	}
+
+	section.social-impact.welcome-page.founder-team-content .row.advisory-border-wrapper {
+		align-items: start;
+	}
+
 	.banner-with-text-wrapper.listing {
 		background-image: none;
 		background-color: #fff !important;
@@ -76,7 +171,7 @@
 	}
 
 	.m-image-wrapper img {
-		max-height: 120px;
+		max-height: 136px;
 		object-fit: cover;
 	}
 
@@ -89,10 +184,15 @@
 	}
 
 	.banner-logo {
-		display: block;
-		width: 70px;
-		margin: 6px auto 0;
+	display: block;
+	width: 70px;
+	margin: 6px auto 0;
+	margin-right: 0;
+	position: relative;
+	bottom: -60px;
 	}
+	
+	
 
 	 .banner-with-text-wrapper.listing .content-wrapepr .sqs-block-content p {
 		margin-top: 0;
@@ -101,7 +201,7 @@
 		line-height: 20px;
 	}
 	.banner-with-text-wrapper.listing .content-wrapepr .sqs-block-content p.collapse{
-		-webkit-line-clamp: 4;
+		-webkit-line-clamp: 5;
 		-webkit-box-orient: vertical;
 		overflow: hidden;
 		display: -webkit-box;
@@ -159,9 +259,9 @@
 		font-size: 14px;
 	}
 	.banner-with-text-wrapper.listing .content-wrapepr .sqs-block-content p.collapse {
-      -webkit-line-clamp: 3;}
+      -webkit-line-clamp: 5;}
       .m-image-wrapper img{
-         max-height: 110px;
+         max-height: 136px;
       }
 }
       </style>
@@ -422,12 +522,16 @@
       </section>
       <section class="banner-with-text-wrapper founder-team" id="founder-and-team">
          <div class="content-wrapepr">
+			<div class="m-image-wrapper ">
+               <img src="assets/team.jpeg" alt="Founder, Board & Team" class="img-responsive">
+            </div>
             <div class="sqs-block-content m-text-toggle">
                <h1 style="text-align:center;">Founder, Board & Team</h1>
                <p><strong>Impact46 is more than a team. <br>It’s a network of individuals who care deeply about social impact <br>and use their unique expertise to help achieve it. </strong></p>
-            </div>
+				<button type="button" class="read__More" data-target="#section_six">Read more</button>
+			</div>
       </section>
-      <section class="social-impact welcome-page founder-team-content">
+      <section class="social-impact welcome-page founder-team-content" id="section_six">
       <div class="row">
       <div class="ceo-column-3">
       <div class="img-wrapper">
@@ -483,6 +587,7 @@
       </div>
       </div>
       <div class="row advisory-border-wrapper">
+
          <div class="column-12">
          <h2><strong>Management</strong></h2>
          </div>
@@ -503,18 +608,24 @@
          <img src="assets/elisa.jpg">
          <p><strong>Elisa Sabbion<a class="social-icon-wrapper" href="https://www.linkedin.com/in/elisa-sabbion-9725a75/" target="_blank"><img class="social-icon" src="assets/linkdin-icon.png"></a></strong><br>Senior Impact Advisor</p>
          </div>
+		 
          </div>
-        
+        <button type="button" class="read__less">Read less</button>
          </div>
-      </section>
+      
+	  </section>
       <section class="banner-with-text-wrapper client-banner" id="clients-1">
          <div class="content-wrapepr">
+			<div class="m-image-wrapper ">
+			   <img src="assets/earth.jpeg" alt="Our Clients" class="img-responsive">
+			</div>
             <div class="sqs-block-content m-text-toggle">
-               <h1 style="text-align:center;">Clients</h1>
+               <h1 style="text-align:center;">Our Clients</h1>
                <p><strong>The organizations supported by i46 are extremely diverse. <br>What they have in common is a serious commitment to social impact.</strong></p>
+			   <button type="button" class="read__More" data-target="#section_seven">Read more</button>
             </div>
       </div></section>
-      <section class="social-impact welcome-page client-logo-wrapper">
+      <section class="social-impact welcome-page client-logo-wrapper" id="section_seven">
          <div class="row">
             <div class="column-4">
                <div class=" logo-content-wrapper">
@@ -538,6 +649,7 @@
                      <div class="logo-wrpper">
                         <img src="assets/iffff.png">
                      </div>
+					 
                   </div>
                </div>
             </div>
@@ -591,7 +703,8 @@
                   </div>
                </div>
             </div>
-         </div>
+         <button type="button" class="read__less">Read less</button>
+		 </div>
       </section>
       <section class="banner-with-text-wrapper contact-us-banner" id="contact">
          <div class="content-wrapepr">
