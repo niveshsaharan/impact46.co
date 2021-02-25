@@ -37,13 +37,25 @@
 
 @media (max-width: 680px) {
 
+   .founder-team-content .advisory-border-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin: 0 -10px;
+}
+
+.founder-team-content .advisory-border-wrapper .column-4 {
+    max-width: 50%;
+    width: 50%;
+    padding: 0 10px;
+}
+
 	section.social-impact .content-column-wrap img {
 		margin: 0 auto;
 		max-width: 268px;
 	}
 	
 	section.social-impact .content-column-wrap {
-    text-align: center;
+    text-align: left;
 }
 
 	.banner-with-text-wrapper.contact-us-banner {
@@ -55,10 +67,13 @@
 		justify-content: space-between;
 	}
 
-	section.social-impact.welcome-page.founder-team-content button.read__less {
-		margin-bottom: 40px;
-		margin-bottom: 40px;
-	}
+section.social-impact.welcome-page.founder-team-content button.read__less {
+   margin-bottom: 40px;
+   width: 100%;
+   text-align: left;
+   padding: 0 10px;
+   display: block;
+}
 
 	.banner-with-text-wrapper.founder-team,
 	.banner-with-text-wrapper.client-banner	{
@@ -171,9 +186,9 @@
 	}
 
 	.m-image-wrapper img {
-		max-height: 136px;
 		object-fit: cover;
-	}
+      height:100%;
+	} 
 
 	.banner-with-text-wrapper.listing .sqs-block-content p br {
 		display: none;
@@ -195,10 +210,11 @@
 	
 
 	 .banner-with-text-wrapper.listing .content-wrapepr .sqs-block-content p {
-		margin-top: 0;
+		margin-top: 7px;
 		padding-top: 0;
 		font-size: 13px;
 		line-height: 20px;
+      margin-bottom: 0;
 	}
 	.banner-with-text-wrapper.listing .content-wrapepr .sqs-block-content p.collapse{
 		-webkit-line-clamp: 5;
@@ -206,7 +222,7 @@
 		overflow: hidden;
 		display: -webkit-box;
       text-overflow: ellipsis;
-      margin-top: 3px;
+      margin-top: 7px;
 		margin-bottom: 0;
 	}
 
@@ -260,9 +276,7 @@
 	}
 	.banner-with-text-wrapper.listing .content-wrapepr .sqs-block-content p.collapse {
       -webkit-line-clamp: 5;}
-      .m-image-wrapper img{
-         max-height: 136px;
-      }
+      
 }
       </style>
    </head>
@@ -386,9 +400,9 @@
                <div class="ceo-column-9">
                   <p><strong>Impact46 is a certified B Corporation dedicated to social impact.</strong><br>We work with philanthropists, impact investors, foundations and CSR departments, as well as non-profits and social enterprises. We provide world-class experience, tools and tech to help foster their social impact. &nbsp;</p>
                </div>
-               <div class="ceo-column-3">
+               <!-- <div class="ceo-column-3">
                   <img src="assets/120473731_767731390450401_101671735593899105_n.jpg" alt="b corp">
-               </div>
+               </div> -->
             </div>
          </div>
       </section>
@@ -398,7 +412,7 @@
                <img src="assets/approch-banner-mobile.jpeg" alt="our apporoach" class="img-responsive">
             </div>
             <div class="sqs-block-content">
-               <h1 style="text-align:center;">Our Approach</h1>
+               <h1 style="text-align:center;" data-target="#section_one">Our Approach</h1>
                <p class="collapse"><strong>Impact46 is an innovative social impact firm.<br>We raise both the quality and accessibility of strategic consulting for key players in the philanthropic market.</strong> </p>
                <button type="button" class="read__More" data-target="#section_one">Read more</button>
             </div>
@@ -418,7 +432,7 @@
                <img src="assets/services-for-donner-mobile.jpg" alt="Services for Foundations" class="img-responsive">
             </div>
             <div class="sqs-block-content">
-               <h1 style="text-align:center;">Services for Foundations</h1>
+               <h1 style="text-align:center;" data-target="#section_two">Services for Foundations</h1>
                <p class="collapse"><strong>Impact46 offers world-class services to family Foundations and institutional Foundations. These services allow donors to transform their vision for impact into a reality. </strong></p>
                <button type="button" class="read__More" data-target="#section_two">Read more</button>           
             </div>
@@ -442,7 +456,7 @@
                <img src="assets/services-for-corporates-mobile.jpg" alt="Services for Corporates" class="img-responsive">
             </div>
             <div class="sqs-block-content">
-               <h1 style="text-align:center;">Services for Corporates</h1>
+               <h1 style="text-align:center;" data-target="#section_three">Services for Corporates</h1>
                <p class="collapse"><strong>Impact46 supports companies in their efforts to clearly define, deliver, measure and communicate positive social impact. </strong></p> 
                <button type="button" class="read__More" data-target="#section_three">Read more</button>          
             </div>
@@ -467,7 +481,7 @@
                <img src="assets/services-investors-1-mobile.jpg" alt="Services for Responsible Investors" class="img-responsive">
             </div>
          <div class="sqs-block-content">
-            <h1 style="text-align:center;">Services for Responsible Investors</h1>
+            <h1 style="text-align:center;" data-target="#section_four">Services for Responsible Investors</h1>
             <p class="collapse"><strong>Impact46 offers services to investors who aim to clearly define, maximize and measure the social impact of their investments. They include a wide range of asset owners and investors: Private Banks, Private Equity funds, Family Offices, Pension Funds and Impact investment Funds.</strong></p>
             <button type="button" class="read__More" data-target="#section_four">Read more</button>
          </div>
@@ -489,7 +503,7 @@
                <img src="assets/Nicola-tracks-mobile.jpg" alt="Services for Non-Profits" class="img-responsive">
             </div>
          <div class="sqs-block-content">
-            <h1 style="text-align:center;">Services for Non-Profits</h1>
+            <h1 style="text-align:center;" data-target="#section_five">Services for Non-Profits</h1>
             <p class="collapse"><strong>Impact46 offers services to non-profits and social enterprises that help maximize their social impact. Services allow non-profits to outsource work where they lack expertise and to upskill their teams by working with experienced professionals.</strong></p>
             <button type="button" class="read__More" data-target="#section_five">Read more</button>
          </div>
@@ -526,7 +540,7 @@
                <img src="assets/team.jpeg" alt="Founder, Board & Team" class="img-responsive">
             </div>
             <div class="sqs-block-content m-text-toggle">
-               <h1 style="text-align:center;">Founder, Board & Team</h1>
+               <h1 style="text-align:center;" data-target="#section_six">Founder, Board & Team</h1>
                <p><strong>Impact46 is more than a team. <br>It’s a network of individuals who care deeply about social impact <br>and use their unique expertise to help achieve it. </strong></p>
 				<button type="button" class="read__More" data-target="#section_six">Read more</button>
 			</div>
@@ -620,7 +634,7 @@
 			   <img src="assets/earth.jpeg" alt="Our Clients" class="img-responsive">
 			</div>
             <div class="sqs-block-content m-text-toggle">
-               <h1 style="text-align:center;">Our Clients</h1>
+               <h1 style="text-align:center;" data-target="#section_seven">Our Clients</h1>
                <p><strong>The organizations supported by i46 are extremely diverse. <br>What they have in common is a serious commitment to social impact.</strong></p>
 			   <button type="button" class="read__More" data-target="#section_seven">Read more</button>
             </div>
@@ -804,7 +818,7 @@
             </div>
          <p>Impact46 is compliant with the Laws and Regulations of Hong Kong, including PDPO, the Personal Data Privacy Ordinance (equivalent of the European Union GDPR/RGPD). To learn more about our Privacy Policy, please click <a
             href="privacy-policy.html" target="_blank">here.</a></p>
-         <p class="copy-right">© 2020 Impact46</p>
+         <p class="copy-right">© 2021 Impact46</p>
       </div>
 
           </div>
@@ -818,6 +832,17 @@
     $(this).closest("div").find("p").removeClass("collapse");
     $(valueTarget).slideDown();
     $(this).hide();
+  });
+
+
+  $(".sqs-block-content h1").click(function () {
+    var valueTarget = $(this).attr("data-target");
+    $(this).closest("div").find("p").removeClass("collapse");
+    $(valueTarget).slideDown();
+  });
+
+  $(".sqs-block-content h1").click(function () {
+   $(this).siblings(".read__More").hide("");
   });
 
   $(".read__less").click(function () {
