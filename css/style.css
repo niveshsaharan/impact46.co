@@ -119,20 +119,19 @@ video {
 }
 
 .logo-details h1 {
-
 	margin-top: 0;
 	margin-bottom: 0;
 	font-size: 130px;
 	font-weight: 500;
 	font-family: Montserrat;
 	font-size: 14px;
-	font-weight: 400;
+	font-weight: 700;
 	font-style: normal;
 	text-transform: none;
 	letter-spacing: .1em;
 	color: #fff;
 }
-
+   
 .row {
 	display: flex;
 	align-items: flex-start;
@@ -182,7 +181,7 @@ video {
 
 .content-details p {
 	font-family: Montserrat;
-	font-weight: 400;
+	font-weight: 700;
 	font-style: normal;
 	font-size: 20px;
 	line-height: 1.4em;
