@@ -326,7 +326,7 @@ section.banner-section-wrapper {
 }
 
 .banner-inner-wrapper {
-	background-image: url(../assets/city.jpeg);
+	background-image: url(../assets/resize/city.jpg);
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -418,7 +418,7 @@ section.banner-section-wrapper {
 }
 
 .services-for-donners {
-	background-image: url(../assets/services-for-donner.png);
+	background-image: url(../assets/resize/services-for-donner.png);
 }
 
 .services-for-investors {
@@ -434,11 +434,11 @@ section.banner-section-wrapper {
 }
 
 .founder-team {
-	background-image: url(../assets/team.jpeg);
+	background-image: url(../assets/resize/team.jpg);
 }
 
 .client-banner {
-	background-image: url(../assets/earth.jpeg);
+	background-image: url(../assets/resize/earth.jpg);
 }
 
 .contact-us-banner {
@@ -1353,7 +1353,7 @@ li {
 }
 
 .services-for-corporates {
-	background-image: url(../assets/services-for-corporates.png);
+	background-image: url(../assets/resize/services-for-corporates.png);
 }
 .m-bcorp{
 	display: none;
