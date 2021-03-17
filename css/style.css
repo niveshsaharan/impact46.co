@@ -409,7 +409,7 @@ section.banner-section-wrapper {
 }
 
 .banner-with-text-wrapper {
-	background-image: url(../assets/approch-banner.jpeg);
+	background-image: url(../assets/resize/approch-banner.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -418,7 +418,7 @@ section.banner-section-wrapper {
 }
 
 .services-for-donners {
-	background-image: url(../assets/resize/services-for-donner.png);
+	background-image: url(../assets/resize/services-for-donner.jpg);
 }
 
 .services-for-investors {
@@ -426,11 +426,7 @@ section.banner-section-wrapper {
 }
 
 .services-for-non-profits {
-	background-image: url(../assets/Nicola-tracks.jpeg);
-}
-
-.services-for-non-profits {
-	background-image: url(../assets/Nicola-tracks.jpeg);
+	background-image: url(../assets/resize/Nicola-tracks.jpg);
 }
 
 .founder-team {
