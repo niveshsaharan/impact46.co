@@ -1,30 +1,36 @@
 @font-face {
 	font-family: Montserrat;
+	font-display: swap;
 	src: url(../fonts/Montserrat-Light.otf);
 }
 
 @font-face {
 	font-family: Montserrat-semibold;
+	font-display: swap;
 	src: url(../fonts/Montserrat-SemiBold.otf);
 }
 
 @font-face {
 	font-family: din-condensed-web;
+	font-display: swap;
 	src: url(../fonts/din-condensed-web.woff2);
 }
 
 @font-face {
 	font-family: Montserrat-Bold;
+	font-display: swap;
 	src: url(../fonts/Montserrat-Bold.otf);
 }
 
 @font-face {
 	font-family: Montserrat-Regular;
+	font-display: swap;
 	src: url(../fonts/Montserrat-Regular.ttf);
 }
 
 @font-face {
 	font-family: proxima-nova;
+	font-display: swap;
 	src: url(../fonts/ProximaNova-Regular.otf);
 }
 
