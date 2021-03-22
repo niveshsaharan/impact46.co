@@ -5,8 +5,8 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="shortcut icon" type="image/x-icon" href="assets/Favicon_i46.png">
       <link rel="stylesheet" href="css/style.css" type="text/css">
-      <script src="js/jquery.js"></script>
-      <script src="js/custom.js"></script>
+      <!--<script defer src="js/jquery.js"></script>-->
+      <script defer src="js/custom.js"></script>
       <title>Impact46</title>
       <meta property="og:site_name" content="Impact46"/>
       <meta property="og:title" content="Welcome &mdash; Impact46"/>
@@ -828,30 +828,7 @@ section.social-impact.welcome-page.founder-team-content button.read__less {
      </div>
      <script>
   // Toggle Read More Content
-  $(".read__More").click(function () {
-    var valueTarget = $(this).attr("data-target");
-    $(this).closest("div").find("p").removeClass("collapse");
-    $(valueTarget).slideDown();
-    $(this).hide();
-  });
-
-
-  $(".sqs-block-content h1").click(function () {
-    var valueTarget = $(this).attr("data-target");
-    $(this).closest("div").find("p").removeClass("collapse");
-    $(valueTarget).slideDown();
-  });
-
-  $(".sqs-block-content h1").click(function () {
-   $(this).siblings(".read__More").hide("");
-  });
-
-  $(".read__less").click(function () {
-    var targetParent = $(this).parent().parent();
-    $(targetParent).slideUp();
-    $(".listing .sqs-block-content p").addClass("collapse");
-    $(".read__More").show();
-  });
+ 
      </script>
    </body>
 </html>
