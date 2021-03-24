@@ -1,37 +1,37 @@
 @font-face {
 	font-family: Montserrat;
-	font-display: swap;
 	src: url(../fonts/Montserrat-Light.otf);
+	font-display: swap;
 }
 
 @font-face {
-	font-family: Montserrat-semibold;
-	font-display: swap;
+	font-family: Montserrat-semibold;	
 	src: url(../fonts/Montserrat-SemiBold.otf);
+	font-display: swap;
 }
 
 @font-face {
 	font-family: din-condensed-web;
-	font-display: swap;
 	src: url(../fonts/din-condensed-web.woff2);
+	font-display: swap;
 }
 
 @font-face {
 	font-family: Montserrat-Bold;
-	font-display: swap;
 	src: url(../fonts/Montserrat-Bold.otf);
+	font-display: swap;
 }
 
 @font-face {
 	font-family: Montserrat-Regular;
-	font-display: swap;
 	src: url(../fonts/Montserrat-Regular.ttf);
+	font-display: swap;
 }
 
 @font-face {
 	font-family: proxima-nova;
-	font-display: swap;
 	src: url(../fonts/ProximaNova-Regular.otf);
+	font-display: swap;
 }
 
 *,
@@ -300,10 +300,7 @@ a {
 .mobile-header-main-wrapper {
 	display: none;
 }
-
-
 /* end */
-
 
 /* banner-section */
 
@@ -428,7 +425,7 @@ section.banner-section-wrapper {
 }
 
 .services-for-investors {
-	background-image: url(../assets/services-investors-1.jpg);
+	background-image: url(../assets/resize/services-investors-1.jpg);
 }
 
 .services-for-non-profits {
@@ -1010,6 +1007,7 @@ li {
 		background-color: #000;
 		border-color: #000;
 		outline: none;
+		cursor: pointer;
 	}
 
 	.Mobile-overlay-menu {
@@ -1284,7 +1282,6 @@ li {
 		text-align: center;
 	}
 }
-
 
 /*B corp logo placement*/
 .b-corp-slide-layer {
