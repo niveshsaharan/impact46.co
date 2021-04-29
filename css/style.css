@@ -200,7 +200,8 @@ video {
 .content-details {
 	padding-left: 0em;
 	max-width: 720px;
-	margin: 0 auto;
+	margin: 0 30px;
+	margin-right:20px;
 }
 
 .link-group-wrapper.btn-reponsive {
@@ -1227,11 +1228,13 @@ li {
 	}
 
 	.slide-layer.content-wrapper .slider-layer-content {
-		height: 100%;
-		width: 100%;
-		position: relative;
-		z-index: 9;
-		padding-top: 45px;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 9;
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
 	}
 
 	.slider-layer-content:before {
