@@ -35,19 +35,60 @@
 	display: none
 }
 
+.column-contentimage {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 280px;
+    max-height: 280px;
+}
+
+.advisory-border-wrapper.member-wrapper .column-content img {
+    display: none;
+}
+
+@media (max-width:768px) {
+   .founder-team-content .advisory-border-wrapper .column-4 {
+    max-width: 50%;
+    width: 50%;
+    padding: 0 10px;
+    margin:0;
+}
+
+.advisory-border-wrapper.member-wrapper .column-content img {
+    display: block;
+    min-height: auto;
+    max-height: 100%;
+}
+
+.column-contentimage {
+    display: none;
+}
+
+}
+
 @media (max-width: 680px) {
+
+   .advisory-border-wrapper.member-wrapper .column-content img {
+    min-height: 250px;
+    max-height: 250px;
+}
+
+   .advisory-border-wrapper.member-wrapper .column-content img {
+   display: block;
+
+   }
+
+   .column-contentimage {
+      display:none;
+
+   }
+
 
    .founder-team-content .advisory-border-wrapper {
     display: flex;
     flex-direction: row;
     margin: 0 -10px;
-}
-
-.founder-team-content .advisory-border-wrapper .column-4 {
-    max-width: 50%;
-    width: 50%;
-    padding: 0 10px;
-    margin:0;
 }
 
 	section.social-impact .content-column-wrap img {
@@ -266,6 +307,17 @@ section.social-impact.welcome-page.founder-team-content button.read__less {
 		display: none;
 	}
 	button.read__More, button.read__less{display: none;}
+}
+
+
+@media (min-width:1199px) {
+.column-contentimage {
+   min-height: 385px;
+   max-height: 385px;
+}
+
+
+
 }
 
 @media (max-width:534px) {
@@ -565,18 +617,23 @@ section.social-impact.welcome-page.founder-team-content button.read__less {
          <h2><strong>Advisory Board</strong></h2>
          </div>
          <div class="column-4">
+            <div  class="column-contentimage" style="background-image:url('assets/resize/Board-Patrick.jpg')"></div>
          <div class="column-content">
          <img src="assets/resize/Board-Patrick.jpg">
          <p><strong>Patrick Fournier</strong><br>Chairman | CalpersHotels &amp; HotelFactory<br>     </p>
          </div>
+
+
          </div>
          <div class="column-4">
+            <div  class="column-contentimage" style="background-image:url('assets/resize/assia-new-photo.jpg')"></div>
          <div class="column-content">
          <img src="assets/resize/assia-new-photo.jpg">
          <p><strong>Assia Grazioli </strong><br>Founder & Partner | Muse Capital<br>Board of Directors | Juventus Football Club  </p>
          </div>
          </div>
          <div class="column-4">
+            <div  class="column-contentimage" style="background-image:url('assets/resize/Board+Member+-+Kennedy+Odede.jpg')"></div>
          <div class="column-content">
          <img src="assets/resize/Board+Member+-+Kennedy+Odede.jpg">
          
@@ -585,6 +642,7 @@ section.social-impact.welcome-page.founder-team-content button.read__less {
          </div>
         
          <div class="column-4">
+            <div  class="column-contentimage" style="background-image:url('assets/resize/CM-N-B.jpg')"></div>
         <div class="column-content">
         <img src="assets/resize/CM-N-B.jpg">      
         <p><strong>Clémence Marchisio</strong><br>Business Development Manager | White & Case</p>
@@ -592,12 +650,14 @@ section.social-impact.welcome-page.founder-team-content button.read__less {
         </div>
         
          <div class="column-4">
+         <div  class="column-contentimage" style="background-image:url('assets/resize/Board-Viria.jpg')"></div>
          <div class="column-content">
          <img src="assets/resize/Board-Viria.jpg">
          <p><strong>Viria Vichit-Vadakan</strong><br>Researcher | MIT Media Lab<br>Co-Founder | G-Lab & GSSE, Thammasat University    </p>
          </div>
          </div>
          <div class="column-4">
+            <div  class="column-contentimage" style="background-image:url('assets/resize/Board+Member+-+Ruben+Vardanyan.jpg')"></div>
          <div class="column-content">
          <img src="assets/resize/Board+Member+-+Ruben+Vardanyan.jpg">
          <p><strong>Ruben Vardanyan</strong><br>Co-Founder | Aurora Humanitarian Initiative<br>     </p>
@@ -605,6 +665,7 @@ section.social-impact.welcome-page.founder-team-content button.read__less {
          </div>
         
          <div class="column-4">
+         <div  class="column-contentimage" style="background-image:url('assets/resize/Carlo-Pittis.jpg')"></div>
          <div class="column-content">
          <img src="assets/resize/Carlo-Pittis.jpg">
          <p><strong>Carlo Pittis</strong><br>Founder and CEO | Movimento srl  Società Benefit<br>     </p>
@@ -613,6 +674,7 @@ section.social-impact.welcome-page.founder-team-content button.read__less {
         
          <div class="column-4">
          <div class="column-content">
+            <div  class="column-contentimage" style="background-image:url('assets/Logo_Impact46-08_Grey.jpg')"></div>
          <img src="assets/Logo_Impact46-08_Grey.jpg">
          <p><strong>François Dassault</strong><br>Entrepreneur & Social Investor<br>     </p>
          </div>
