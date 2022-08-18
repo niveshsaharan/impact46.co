@@ -568,6 +568,9 @@ a.social-icon-wrapper {
 	flex-wrap: wrap;
 	width: calc(50% - 30px);
 	margin: 15px;
+    min-height: 140px;
+    align-items: center;
+    display: flex;
 }
 
 .logo-wrpper img {
