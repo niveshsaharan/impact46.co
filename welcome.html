@@ -1,924 +1,986 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="shortcut icon" type="image/x-icon" href="assets/Favicon_i46.png">
-      <link rel="stylesheet" href="css/style.min.css" type="text/css">
-      <!--<script defer src="js/jquery.js"></script>-->
-      <script defer src="js/custom.js"></script>
-      <title>Impact46</title>
-      <meta property="og:site_name" content="Impact46"/>
-      <meta property="og:title" content="Welcome &mdash; Impact46"/>
-      <meta property="og:url" content="https://impact46.co/welcome.html"/>
-      <meta property="og:type" content="website"/>
-      <meta property="og:image" content="/assets/Favicon_02.jpg"/>
-      <meta property="og:image:width" content="900"/>
-      <meta property="og:image:height" content="900"/>
-      <meta itemprop="name" content="Welcome — Impact46"/>
-      <meta itemprop="url" content="https://impact46.co/welcome.html"/>
-      <meta itemprop="thumbnailUrl" content="/assets/Favicon_02.jpg"/>
-      <link rel="image_src" href="/assets/Favicon_02.jpg" />
-      <meta itemprop="image" content="/assets/Favicon_02.jpg"/>
-      <meta name="twitter:title" content="Welcome — Impact46"/>
-      <meta name="twitter:image" content="/assets/Favicon_02.jpg"/>
-      <meta name="twitter:url" content="https://impact46.co/welcome.html"/>
-      <meta name="twitter:card" content="summary"/>
-      <meta name="description" content="" />
-      <style>
-         
-.m-image-wrapper {
-	display: none;
-}
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" type="image/x-icon" href="assets/Favicon_i46.png">
+   <link rel="stylesheet" href="css/style.min.css" type="text/css">
+   <!--<script defer src="js/jquery.js"></script>-->
+   <script defer src="js/custom.js"></script>
+   <title>Impact46</title>
+   <meta property="og:site_name" content="Impact46"/>
+   <meta property="og:title" content="Welcome &mdash; Impact46"/>
+   <meta property="og:url" content="https://impact46.co/welcome.html"/>
+   <meta property="og:type" content="website"/>
+   <meta property="og:image" content="/assets/Favicon_02.jpg"/>
+   <meta property="og:image:width" content="900"/>
+   <meta property="og:image:height" content="900"/>
+   <meta itemprop="name" content="Welcome — Impact46"/>
+   <meta itemprop="url" content="https://impact46.co/welcome.html"/>
+   <meta itemprop="thumbnailUrl" content="/assets/Favicon_02.jpg"/>
+   <link rel="image_src" href="/assets/Favicon_02.jpg" />
+   <meta itemprop="image" content="/assets/Favicon_02.jpg"/>
+   <meta name="twitter:title" content="Welcome — Impact46"/>
+   <meta name="twitter:image" content="/assets/Favicon_02.jpg"/>
+   <meta name="twitter:url" content="https://impact46.co/welcome.html"/>
+   <meta name="twitter:card" content="summary"/>
+   <meta name="description" content="" />
+   <style>
 
-.banner-logo {
-	display: none
-}
+      .m-image-wrapper {
+         display: none;
+      }
 
-.column-contentimage {
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 280px;
-    max-height: 280px;
-}
+      .banner-logo {
+         display: none
+      }
 
-.advisory-border-wrapper.member-wrapper .column-content img {
-    display: none;
-}
+      .column-contentimage {
+         background-position: center center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         min-height: 280px;
+         max-height: 280px;
+      }
 
-@media (max-width:768px) {
-   .founder-team-content .advisory-border-wrapper .column-4 {
-    max-width: 50%;
-    width: 50%;
-    padding: 0 10px;
-    margin:0;
-}
+      .advisory-border-wrapper.member-wrapper .column-content img {
+         display: none;
+      }
 
-.advisory-border-wrapper.member-wrapper .column-content img {
-    display: block;
-    min-height: auto;
-    max-height: 100%;
-}
+      @media (max-width:768px) {
+         .founder-team-content .advisory-border-wrapper .column-4 {
+            max-width: 50%;
+            width: 50%;
+            padding: 0 10px;
+            margin:0;
+         }
 
-.column-contentimage {
-    display: none;
-}
+         .advisory-border-wrapper.member-wrapper .column-content img {
+            display: block;
+            min-height: auto;
+            max-height: 100%;
+         }
 
-}
+         .column-contentimage {
+            display: none;
+         }
 
-@media (max-width: 680px) {
+      }
 
-   .advisory-border-wrapper.member-wrapper .column-content img {
-    min-height: 250px;
-    max-height: 250px;
-}
+      @media (max-width: 680px) {
 
-   .advisory-border-wrapper.member-wrapper .column-content img {
-   display: block;
+         .advisory-border-wrapper.member-wrapper .column-content img {
+            min-height: 250px;
+            max-height: 250px;
+         }
 
-   }
+         .advisory-border-wrapper.member-wrapper .column-content img {
+            display: block;
 
-   .column-contentimage {
-      display:none;
+         }
 
-   }
+         .column-contentimage {
+            display:none;
 
-
-   .founder-team-content .advisory-border-wrapper {
-    display: flex;
-    flex-direction: row;
-    margin: 0 -10px;
-}
-
-	section.social-impact .content-column-wrap img {
-		margin: 0 auto;
-		max-width: 268px;
-	}
-	
-	section.social-impact .content-column-wrap {
-    text-align: left;
-}
-
-	.banner-with-text-wrapper.contact-us-banner {
-		background-attachment: scroll;
-		margin-top: 20px;
-	}
-
-	.bottom_address {
-		justify-content: space-between;
-	}
-
-section.social-impact.welcome-page.founder-team-content button.read__less {
-   margin-bottom: 40px;
-   width: 100%;
-   text-align: left;
-   padding: 0 10px;
-   display: block;
-}
-
-	.banner-with-text-wrapper.founder-team,
-	.banner-with-text-wrapper.client-banner	{
-		background-image: none;
-		background-color: #fff !important;
-		margin: 0;
-	}
-	
-	.banner-with-text-wrapper.founder-team:after,
-	.banner-with-text-wrapper.client-banner:after 	{
-		display:none;
-	}
-	
-	.banner-with-text-wrapper.founder-team .content-wrapepr,
-	.banner-with-text-wrapper.client-banner .content-wrapepr	{
-		display: flex;
-		display: -webkit-flex;
-		padding: 0px 10px 10px;
-	}
-	
-	.banner-with-text-wrapper.founder-team .content-wrapepr .sqs-block-content,
-	.banner-with-text-wrapper.client-banner .content-wrapepr .sqs-block-content	{
-		flex-basis: 60%;
-		padding: 0 !important;
-		margin-top: 0;
-		text-align: left;
-	}
-	
-	
-	.banner-with-text-wrapper.founder-team .content-wrapepr .sqs-block-content h1,
-	.banner-with-text-wrapper.client-banner .content-wrapepr .sqs-block-content h1	{
-		font-size: 16px;
-		margin-bottom: 0;
-		color: #000;
-		text-align: left !important;
-	}
-
-	.banner-with-text-wrapper.founder-team .content-wrapepr .sqs-block-content p,
-	.banner-with-text-wrapper.client-banner .content-wrapepr .sqs-block-content p {
-		-webkit-line-clamp: 5;
-		-webkit-box-orient: vertical;
-		overflow: hidden;
-		display: -webkit-box !important;
-		text-overflow: ellipsis;
-		margin-top: 3px;
-		margin-bottom: 0;
-		color: #000;
-		text-align: left;
-		padding-top: 0;
-		font-size: 13px;
-		line-height: 20px;
-	}
-	
-	section.social-impact.welcome-page.founder-team-content,
-	section.social-impact.welcome-page.client-logo-wrapper	{
-		display: none;
-	}
-	
-	section.social-impact.welcome-page.client-logo-wrapper .row {
-		align-items: flex-start;
-	}
-	
-	section.social-impact.welcome-page.client-logo-wrapper button.read__less {
-		text-align: left;
-		padding-left: 30px;
-		margin-bottom: 20px;
-	}
-
-	section.social-impact.welcome-page.founder-team-content .row.advisory-border-wrapper {
-		align-items: start;
-	}
-
-	.banner-with-text-wrapper.listing {
-		background-image: none;
-		background-color: #fff !important;
-	}
-
-	.banner-with-text-wrapper.listing:after {
-		content: none;
-	}
-
-	.banner-with-text-wrapper.listing .content-wrapepr {
-		display: flex;
-		display: -webkit-flex;
-		padding: 0px 10px 10px;
-	}
-
-	.banner-with-text-wrapper.listing .content-wrapepr .sqs-block-content {
-		flex-basis: 60%;
-		padding: 0 !important;
-		margin-top: 0;
-		text-align: left;
-	}
-
-	.banner-with-text-wrapper.listing .content-wrapepr .sqs-block-content h1 {
-		font-size: 16px;
-		margin-bottom: 0;
-	}
-
-	.m-image-wrapper {
-		display: block;
-		flex-basis: 40%;
-		padding-right: 15px;
-	}
-
-	.banner-with-text-wrapper.listing .content-wrapepr .sqs-block-content h1,
-	.banner-with-text-wrapper.listing .content-wrapepr .sqs-block-content p {
-		color: #000;
-		text-align: left !important;
-	}
-
-	.m-image-wrapper img {
-		object-fit: cover;
-      height:100%;
-	} 
-
-	.banner-with-text-wrapper.listing .sqs-block-content p br {
-		display: none;
-	}
-
-	.m-none {
-		display: none !important;
-	}
-
-	.banner-logo {
-	display: block;
-	width: 70px;
-	margin: 6px auto 0;
-	margin-right: 0;
-	position: relative;
-	bottom: -60px;
-	}
-	
-	
-
-	 .banner-with-text-wrapper.listing .content-wrapepr .sqs-block-content p {
-		margin-top: 7px;
-		padding-top: 0;
-		font-size: 13px;
-		line-height: 20px;
-      margin-bottom: 0;
-	}
-	.banner-with-text-wrapper.listing .content-wrapepr .sqs-block-content p.collapse{
-		-webkit-line-clamp: 5;
-		-webkit-box-orient: vertical;
-		overflow: hidden;
-		display: -webkit-box;
-      text-overflow: ellipsis;
-      margin-top: 7px;
-		margin-bottom: 0;
-	}
-
-	.banner-with-text-wrapper.listing .content-wrapepr .sqs-block-content .page-content {
-		padding: 0;
-		margin-top: 8px;
-	}
-
-	.m-text-toggle p {
-		display: none;
-	}
-	.founder-team{
-		margin-top: 60px;
-	}
-	button.read__More,  button.read__less{
-		background-color: transparent;
-		border: none;
-		padding: 0;
-		line-height: normal;
-		cursor: pointer;
-		display: table;
-		margin-top: 4px;
-		color: #4CAF50;
-	}
-	.m-content{display: none;}
-	.m-content .page-content p {
-		font-size: 13px;
-		font-weight: 500;
-		line-height: 20px;
-		margin-bottom: 8px;
-	}
-	.m-content .page-content {
-		padding-top: 0px;
-		margin-top: 0;
-	}
-}
-
-@media (min-width:681px) {
-	.banner-with-text-wrapper.listing .content-wrapepr .sqs-block-content .page-content {
-		display: none;
-	}
-	button.read__More, button.read__less{display: none;}
-}
+         }
 
 
-@media (min-width:1199px) {
-.column-contentimage {
-   min-height: 385px;
-   max-height: 385px;
-}
+         .founder-team-content .advisory-border-wrapper {
+            display: flex;
+            flex-direction: row;
+            margin: 0 -10px;
+         }
+
+         section.social-impact .content-column-wrap img {
+            margin: 0 auto;
+            max-width: 268px;
+         }
+
+         section.social-impact .content-column-wrap {
+            text-align: left;
+         }
+
+         .banner-with-text-wrapper.contact-us-banner {
+            background-attachment: scroll;
+            margin-top: 20px;
+         }
+
+         .bottom_address {
+            justify-content: space-between;
+         }
+
+         section.social-impact.welcome-page.founder-team-content button.read__less {
+            margin-bottom: 40px;
+            width: 100%;
+            text-align: left;
+            padding: 0 10px;
+            display: block;
+         }
+
+         .banner-with-text-wrapper.founder-team,
+         .banner-with-text-wrapper.client-banner	{
+            background-image: none;
+            background-color: #fff !important;
+            margin: 0;
+         }
+
+         .banner-with-text-wrapper.founder-team:after,
+         .banner-with-text-wrapper.client-banner:after 	{
+            display:none;
+         }
+
+         .banner-with-text-wrapper.founder-team .content-wrapepr,
+         .banner-with-text-wrapper.client-banner .content-wrapepr	{
+            display: flex;
+            display: -webkit-flex;
+            padding: 0px 10px 10px;
+         }
+
+         .banner-with-text-wrapper.founder-team .content-wrapepr .sqs-block-content,
+         .banner-with-text-wrapper.client-banner .content-wrapepr .sqs-block-content	{
+            flex-basis: 60%;
+            padding: 0 !important;
+            margin-top: 0;
+            text-align: left;
+         }
+
+
+         .banner-with-text-wrapper.founder-team .content-wrapepr .sqs-block-content h1,
+         .banner-with-text-wrapper.client-banner .content-wrapepr .sqs-block-content h1	{
+            font-size: 16px;
+            margin-bottom: 0;
+            color: #000;
+            text-align: left !important;
+         }
+
+         .banner-with-text-wrapper.founder-team .content-wrapepr .sqs-block-content p,
+         .banner-with-text-wrapper.client-banner .content-wrapepr .sqs-block-content p {
+            -webkit-line-clamp: 5;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            display: -webkit-box !important;
+            text-overflow: ellipsis;
+            margin-top: 3px;
+            margin-bottom: 0;
+            color: #000;
+            text-align: left;
+            padding-top: 0;
+            font-size: 13px;
+            line-height: 20px;
+         }
+
+         section.social-impact.welcome-page.founder-team-content,
+         section.social-impact.welcome-page.client-logo-wrapper	{
+            display: none;
+         }
+
+         section.social-impact.welcome-page.client-logo-wrapper .row {
+            align-items: flex-start;
+         }
+
+         section.social-impact.welcome-page.client-logo-wrapper button.read__less {
+            text-align: left;
+            padding-left: 30px;
+            margin-bottom: 20px;
+         }
+
+         section.social-impact.welcome-page.founder-team-content .row.advisory-border-wrapper {
+            align-items: start;
+         }
+
+         .banner-with-text-wrapper.listing {
+            background-image: none;
+            background-color: #fff !important;
+         }
+
+         .banner-with-text-wrapper.listing:after {
+            content: none;
+         }
+
+         .banner-with-text-wrapper.listing .content-wrapepr {
+            display: flex;
+            display: -webkit-flex;
+            padding: 0px 10px 10px;
+         }
+
+         .banner-with-text-wrapper.listing .content-wrapepr .sqs-block-content {
+            flex-basis: 60%;
+            padding: 0 !important;
+            margin-top: 0;
+            text-align: left;
+         }
+
+         .banner-with-text-wrapper.listing .content-wrapepr .sqs-block-content h1 {
+            font-size: 16px;
+            margin-bottom: 0;
+         }
+
+         .m-image-wrapper {
+            display: block;
+            flex-basis: 40%;
+            padding-right: 15px;
+         }
+
+         .banner-with-text-wrapper.listing .content-wrapepr .sqs-block-content h1,
+         .banner-with-text-wrapper.listing .content-wrapepr .sqs-block-content p {
+            color: #000;
+            text-align: left !important;
+         }
+
+         .m-image-wrapper img {
+            object-fit: cover;
+            height:100%;
+         }
+
+         .banner-with-text-wrapper.listing .sqs-block-content p br {
+            display: none;
+         }
+
+         .m-none {
+            display: none !important;
+         }
+
+         .banner-logo {
+            display: block;
+            width: 70px;
+            margin: 6px auto 0;
+            margin-right: 0;
+            position: relative;
+            bottom: -60px;
+         }
 
 
 
-}
+         .banner-with-text-wrapper.listing .content-wrapepr .sqs-block-content p {
+            margin-top: 7px;
+            padding-top: 0;
+            font-size: 13px;
+            line-height: 20px;
+            margin-bottom: 0;
+         }
+         .banner-with-text-wrapper.listing .content-wrapepr .sqs-block-content p.collapse{
+            -webkit-line-clamp: 5;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            display: -webkit-box;
+            text-overflow: ellipsis;
+            margin-top: 7px;
+            margin-bottom: 0;
+         }
 
-@media (max-width:534px) {
-	.banner-with-text-wrapper.listing .content-wrapepr .sqs-block-content {
-		padding-top: 0 !important;
-	}
-	.banner-with-text-wrapper.listing .content-wrapepr .sqs-block-content h1 {
-		font-size: 14px;
-	}
-	.banner-with-text-wrapper.listing .content-wrapepr .sqs-block-content p.collapse {
-      -webkit-line-clamp: 5;}
-      
-}
-      </style>
-   </head>
-   <body>
-      <div class="welcome-page-wrapper">
-      <div class="header-wrapper" >
-         <div class="header-inner-wrappper">
-            <div class="logo-left">
-               <a href="index.html" class="logo-link">
+         .banner-with-text-wrapper.listing .content-wrapepr .sqs-block-content .page-content {
+            padding: 0;
+            margin-top: 8px;
+         }
+
+         .m-text-toggle p {
+            display: none;
+         }
+         .founder-team{
+            margin-top: 60px;
+         }
+         button.read__More,  button.read__less{
+            background-color: transparent;
+            border: none;
+            padding: 0;
+            line-height: normal;
+            cursor: pointer;
+            display: table;
+            margin-top: 4px;
+            color: #4CAF50;
+         }
+         .m-content{display: none;}
+         .m-content .page-content p {
+            font-size: 13px;
+            font-weight: 500;
+            line-height: 20px;
+            margin-bottom: 8px;
+         }
+         .m-content .page-content {
+            padding-top: 0px;
+            margin-top: 0;
+         }
+      }
+
+      @media (min-width:681px) {
+         .banner-with-text-wrapper.listing .content-wrapepr .sqs-block-content .page-content {
+            display: none;
+         }
+         button.read__More, button.read__less{display: none;}
+      }
+
+
+      @media (min-width:1199px) {
+         .column-contentimage {
+            min-height: 385px;
+            max-height: 385px;
+         }
+
+
+
+      }
+
+      @media (max-width:534px) {
+         .banner-with-text-wrapper.listing .content-wrapepr .sqs-block-content {
+            padding-top: 0 !important;
+         }
+         .banner-with-text-wrapper.listing .content-wrapepr .sqs-block-content h1 {
+            font-size: 14px;
+         }
+         .banner-with-text-wrapper.listing .content-wrapepr .sqs-block-content p.collapse {
+            -webkit-line-clamp: 5;}
+
+      }
+   </style>
+</head>
+<body>
+<div class="welcome-page-wrapper">
+   <div class="header-wrapper" >
+      <div class="header-inner-wrappper">
+         <div class="logo-left">
+            <a href="index.html" class="logo-link">
                <img src="assets/Logo_Impact46-03.png">
-               </a>
-            </div>
-            <div class="main-nav-wrapper">
-               <div class="nav-right">
-                  <div class="nav-inner">
-                     <a href="#approach" class="Header-nav-item">Approach</a>
-                     <div class="dropdown-menu-desktop">
-                        <a href="#" class="Header-nav-item parent-menu">
+            </a>
+         </div>
+         <div class="main-nav-wrapper">
+            <div class="nav-right">
+               <div class="nav-inner">
+                  <a href="#approach" class="Header-nav-item">Approach</a>
+                  <div class="dropdown-menu-desktop">
+                     <a href="#" class="Header-nav-item parent-menu">
                         Services
-                        </a>
-                        <div class="child-menus">
-                           <a href="#services-for-donors" class="Header-nav-item child-menu">
+                     </a>
+                     <div class="child-menus">
+                        <a href="#services-for-donors" class="Header-nav-item child-menu">
                            Services for Foundations
-                           </a>
-                           <a href="#services-for-corporates" class="Header-nav-item child-menu">
+                        </a>
+                        <a href="#services-for-corporates" class="Header-nav-item child-menu">
                            Services for Corporates
-                           </a>
-                           <a href="#services-for-investors" class="Header-nav-item child-menu">
+                        </a>
+                        <a href="#services-for-investors" class="Header-nav-item child-menu">
                            Services for Responsible Investors
-                           </a>
-                           <a href="#services-for-nonprofits" class="Header-nav-item child-menu">
+                        </a>
+                        <a href="#services-for-nonprofits" class="Header-nav-item child-menu">
                            Services for Non-Profits
-                           </a>
-                        </div>
+                        </a>
+                        <a href="#i46-Lab" class="Header-nav-item child-menu">
+                           i46-Lab
+                        </a>
                      </div>
-                     <a href="#founder-and-team" class="Header-nav-item">Founder &amp; Team</a>
-                     <a href="#clients-1" class="Header-nav-item">Clients</a>
-                     <a href="#contact" class="Header-nav-item">Contact</a>
+                  </div>
+                  <a href="#founder-and-team" class="Header-nav-item">Founder &amp; Team</a>
+                  <a href="#clients-1" class="Header-nav-item">Clients</a>
+                  <a href="#contact" class="Header-nav-item">Contact</a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<div class="mobile-header-main-wrapper">
+   <div class="mobile-header-wrapper">
+      <div class="mobile-logo">
+         <a href="index.html">
+            <img src="assets/Logo_Impact46-03.png">
+         </a>
+      </div>
+      <div data-nc-container="top-right">
+         <button class="Mobile-bar-menu" data-nc-element="menu-icon" data-controller-overlay="menu" data-controller="MobileOverlayToggle" data-controllers-bound="MobileOverlayToggle">
+            <div></div>
+            <div></div>
+            <div></div>
+         </button>
+      </div>
+      <div class="b-corp">
+         <img src="assets/120252900_767862507115711_4616387465481492273_n.jpg" alt="b corp">
+      </div>
+   </div>
+
+   <div class="mobile-header-content-wrapper">
+      <div class="Mobile-overlay-menu" data-controller="MobileOverlayFolders" data-controllers-bound="MobileOverlayFolders">
+         <div class="Mobile-overlay-menu-main">
+            <nav class="Mobile-overlay-nav Mobile-overlay-nav--primary" data-content-field="navigation">
+               <a href="#approach" class="Mobile-overlay-nav-item">
+                  Approach
+               </a>
+               <div class="dropdown-menu-mobile">
+                  <a href="#" class="parent-menu">
+                     Services
+                  </a>
+                  <div class="child-menus">
+                     <a href="#services-for-foundations" class="Mobile-overlay-nav-item child-menu">
+                        Services for Foundations
+                     </a>
+                     <a href="#services-for-corporates" class="Mobile-overlay-nav-item child-menu">
+                        Services for Corporates
+                     </a>
+                     <a href="#services-for-investors" class="Mobile-overlay-nav-item child-menu">
+                        Services for Responsible Investors
+                     </a>
+                     <a href="#services-for-nonprofits" class="Mobile-overlay-nav-item child-menu">
+                        Services for Non-Profits
+                     </a>
+                     <a href="#i46-Lab" class="Mobile-overlay-nav-item child-menu">
+                        i46-Lab
+                     </a>
                   </div>
                </div>
-            </div>
-         </div>
-         </div>
-      </div>
-      <div class="mobile-header-main-wrapper">
-         <div class="mobile-header-wrapper">
-            <div class="mobile-logo">
-               <a href="index.html">
-               <img src="assets/Logo_Impact46-03.png">
+               <a href="#founder-and-team" class="Mobile-overlay-nav-item">
+                  Founder &amp; Team
                </a>
-            </div>
-            <div data-nc-container="top-right">
-               <button class="Mobile-bar-menu" data-nc-element="menu-icon" data-controller-overlay="menu" data-controller="MobileOverlayToggle" data-controllers-bound="MobileOverlayToggle">
-                  <div></div>
-                  <div></div>
-                  <div></div>
-               </button>
-            </div>
-            <div class="b-corp">
-               <img src="assets/120252900_767862507115711_4616387465481492273_n.jpg" alt="b corp">
+               <a href="#clients-1" class="Mobile-overlay-nav-item">
+                  Clients
+               </a>
+               <a href="#contact" class="Mobile-overlay-nav-item">
+                  Contact
+               </a>
+            </nav>
+            <nav class="Mobile-overlay-nav Mobile-overlay-nav--secondary" data-content-field="navigation">
+            </nav>
          </div>
-         </div>
-         
-         <div class="mobile-header-content-wrapper">
-            <div class="Mobile-overlay-menu" data-controller="MobileOverlayFolders" data-controllers-bound="MobileOverlayFolders">
-               <div class="Mobile-overlay-menu-main">
-                  <nav class="Mobile-overlay-nav Mobile-overlay-nav--primary" data-content-field="navigation">
-                     <a href="#approach" class="Mobile-overlay-nav-item">
-                     Approach
-                     </a>
-                     <div class="dropdown-menu-mobile">
-                        <a href="#" class="parent-menu">
-                        Services
-                        </a>
-                        <div class="child-menus">
-                           <a href="#services-for-foundations" class="Mobile-overlay-nav-item child-menu">
-                           Services for Foundations
-                           </a>
-                           <a href="#services-for-corporates" class="Mobile-overlay-nav-item child-menu">
-                           Services for Corporates
-                           </a>
-                           <a href="#services-for-investors" class="Mobile-overlay-nav-item child-menu">
-                           Services for Responsible Investors
-                           </a>
-                           <a href="#services-for-nonprofits" class="Mobile-overlay-nav-item child-menu">
-                           Services for Non-Profits
-                           </a>
-                        </div>
-                     </div>
-                     <a href="#founder-and-team" class="Mobile-overlay-nav-item">
-                     Founder &amp; Team
-                     </a>
-                     <a href="#clients-1" class="Mobile-overlay-nav-item">
-                     Clients
-                     </a>
-                     <a href="#contact" class="Mobile-overlay-nav-item">
-                     Contact
-                     </a>
-                  </nav>
-                  <nav class="Mobile-overlay-nav Mobile-overlay-nav--secondary" data-content-field="navigation">
-                  </nav>
-               </div>
-               <div class="Mobile-overlay-folders" data-content-field="navigation">
-               </div>
-            </div>
+         <div class="Mobile-overlay-folders" data-content-field="navigation">
          </div>
       </div>
-      <section class="banner-section-wrapper">
-         <div class="banner-inner-wrapper index-banner">
-            <div class="sqs-block-content">
-               <h1 style="text-align:center;">We accelerate impact.</h1>
-               <div class="banner-logo">
-                  <img src="assets/bcorp-white.png" alt="" class="img-responsive">
-               </div>
-            </div>
+   </div>
+</div>
+<section class="banner-section-wrapper">
+   <div class="banner-inner-wrapper index-banner">
+      <div class="sqs-block-content">
+         <h1 style="text-align:center;">We accelerate impact.</h1>
+         <div class="banner-logo">
+            <img src="assets/bcorp-white.png" alt="" class="img-responsive">
          </div>
-      </section>
-      <section class="social-impact welcome-page">
-         <div class="page-content">
-            <div class="content-column-wrap">
-               <div class="ceo-column-9">
-                  <p><strong>Impact46 is a certified B Corporation dedicated to impact.</strong><br>We work with philanthropists, impact investors, Foundations and CSR departments, as well as non-profits and social enterprises. We provide world-class experience, tools and tech to help foster, measure and communicate impact. &nbsp;</p>
-               </div>
-               <div class="ceo-column-3 top_section_bcorp_image">
-                  <img src="assets/120473731_767731390450401_101671735593899105_n.jpg" alt="b corp">
-               </div>
-            </div>
+      </div>
+   </div>
+</section>
+<section class="social-impact welcome-page">
+   <div class="page-content">
+      <div class="content-column-wrap">
+         <div class="ceo-column-9">
+            <p><strong>Impact46 is a certified B Corporation dedicated to impact.</strong><br>We work with philanthropists, impact investors, Foundations and CSR departments, as well as non-profits and social enterprises. We provide world-class experience, tools and tech to help foster, measure and communicate impact. &nbsp;</p>
          </div>
-      </section>
-      <section class="banner-with-text-wrapper listing" id="approach">
-         <div class="content-wrapepr ">
-            <div class="m-image-wrapper ">
-               <img src="assets/resize/approch-banner-mobile.jpg" alt="our apporoach" class="img-responsive">
-            </div>
-            <div class="sqs-block-content">
-               <h1 style="text-align:center;" data-target="#section_one">Our Approach</h1>
-               <p class="collapse"><strong>Impact46 is an innovative impact firm.<br>We raise both the quality and accessibility of strategic impact consulting globally.</strong> </p>
-               <button type="button" class="read__More" data-target="#section_one">Read more</button>
-            </div>
+         <div class="ceo-column-3 top_section_bcorp_image">
+            <img src="assets/120473731_767731390450401_101671735593899105_n.jpg" alt="b corp">
          </div>
-      </section>
-      <section class="social-impact welcome-page m-content" id="section_one">
-         <div class="page-content">
-            <p>Since 2019 Impact46 has disrupted impact consulting. It continues to do so by offering:<br><br><strong>World-class experience<br></strong>i46 strives to provide the highest-quality impact consulting available globally. i46 Founder Nicola Crosta directly oversees every consulting project, working closely with some of the world’s most experienced social impact practitioners.<br><br><strong>Robust tools<br></strong>Clients benefit from advanced tools, methodologies and tech to design, implement and measure social impact programs.<br><br><strong>Day-to-day support<br></strong>i46 believes in the value of strategy, but is also committed to supporting clients in the day-to-day challenges of implementation.  </p>
-            <button type="button" class="read__less" >Read less</button>
-         </div>
-      </section>
-      
-      
-      <section class="banner-with-text-wrapper services-for-donners listing" id="services-for-donors">
-         <div class="content-wrapepr">
-            <div class="m-image-wrapper">
-               <img src="assets/resize/services-for-donner-mobile.jpg" alt="Services for Foundations" class="img-responsive">
-            </div>
-            <div class="sqs-block-content">
-               <h1 style="text-align:center;" data-target="#section_two">Services for Foundations</h1>
-               <p class="collapse"><strong>Impact46 offers world-class services to corporate and family Foundations. These services allow donors to transform their vision for impact into a reality. </strong></p>
-               <button type="button" class="read__More" data-target="#section_two">Read more</button>           
-            </div>
-         </div>
-      </section>
-      <section class="social-impact welcome-page m-content" id="section_two">
-         <div class="page-content">
-            <p><strong>5 Services for Foundations </strong></p>
-            <p><strong>Impact Strategy</strong><br>i46 helps Foundations define their impact strategy or review existing strategies. This typically takes the shape of a robust 3-5-year Strategy and Guidelines that clearly define what the organisation aims to achieve, how, with what resources and by when. </p>
-            <p><strong>Impact Framework</strong><br>i46 helps Foundations put in place a rigorous impact framework: this outlines what impact the organisation aims to achieve and how this is measured and communicated. </p>
-            <p><strong>Impact Monitoring</strong><br>i46 helps monitor Portfolios of social purpose organizations and track their impact. Our team can deliver professional Impact Reports that are tailored to your needs. </p>
-            <p><strong>Capacity Development</strong><br>i46 can help reinforce the capacity of grantees by offering a unique, comprehensive capacity development in various key areas (strategy, M&E, fundraising). </p>
-            <p><strong>Special Initiatives</strong><br>Whether the goal is to open a new Foundation, start a global initiative for impact or set up a social enterprise incubator, i46 provides exceptional experience to donors and investors building their impact endeavors. </p>
-            <button type="button" class="read__less" >Read less</button>
-         </div>
-      </section>
-      
-            <section class="banner-with-text-wrapper services-for-corporates listing" id="services-for-corporates">
-         <div class="content-wrapepr">
-            <div class="m-image-wrapper">
-               <img src="assets/resize/services-for-corporates-mobile.jpg" alt="Services for Corporates" class="img-responsive">
-            </div>
-            <div class="sqs-block-content">
-               <h1 style="text-align:center;" data-target="#section_three">Services for Corporates</h1>
-               <p class="collapse"><strong>Impact46 supports companies in their efforts to clearly define, deliver, measure and communicate social and environmental impact. </strong></p> 
-               <button type="button" class="read__More" data-target="#section_three">Read more</button>          
-            </div>
-         </div>
-      </section>
-      <section class="social-impact welcome-page m-content" id="section_three">
-         <div class="page-content">
-            <p><strong>5 Services for Corporates </strong></p>
-            <p><strong>Impact/Sustainability Strategy</strong><br>i46 works with company Boards and Sustainability/CSR Departments and helps them define or review their overall impact strategy. We use our flagship Impact+ methodology to provide a comprehensive assessment of the company’s potential positive impact. We then help design a robust impact framework that allows the company to clearly define, deliver, measure and communicate impact. </p>
-            <p><strong>Impact/ESG Monitoring</strong><br>i46 provides companies with the tools and technologies needed to monitor and measure their social impact. We help define what needs to be measured and how information can be collected, stored and utilized. </p>
-            <p><strong>Impact Communication</strong><br>We help companies develop a robust narrative and materials to communicate social impact in a professional and ethical manner, within and outside of their organization. We leverage our direct experience with international organizations to help articulate clearly the link between the company’s efforts and existing policy frameworks. Special focus is placed on the company’s contribution to the United Nations SDGs.
- </p>
-            <p><strong>Ecosystem Reviews and Due Diligence</strong><br>i46 supports companies that aim to start social impact initiatives in new sectors/geographies by performing in-depth research on the related ecosystems as well as professional due diligence on potential partners (ex. local non-profits). </p>
-            <p><strong>B Corp Certification</strong><br>As a certified B Corporation, Impact46 can help you decide if your company would benefit from becoming a B Corporation. If the company chooses to pursue certification, our team can provide assistance throughout the process. </p>
-            <button type="button" class="read__less" >Read less</button>
-         </div>
-      </section>
-      
-      <section class="banner-with-text-wrapper services-for-investors listing" id="services-for-investors">
-         <div class="content-wrapepr">
-            <div class="m-image-wrapper">
-               <img src="assets/resize/services-investors-1-mobile.jpg" alt="Services for Responsible Investors" class="img-responsive">
-            </div>
-         <div class="sqs-block-content">
-            <h1 style="text-align:center;" data-target="#section_four">Services for Responsible Investors</h1>
-            <p class="collapse"><strong>Impact46 supports investors who aim to clearly define, maximize and measure the social impact of their investments. Our clients include a wide range of asset owners and investors: Private Banks, Private Equity funds, Family Offices, Pension Funds and Impact investment Funds.</strong></p>
-            <button type="button" class="read__More" data-target="#section_four">Read more</button>
-         </div>
-      </section>
-      <section class="social-impact welcome-page  Responsible-Investors m-content" id="section_four">
-         <div class="page-content">
-            <p><strong>5 Services for Responsible Investors</strong></p>
-            <p><strong>Impact Guidelines/Toolbox </strong><br>Impact46 supports investors aiming to clearly define, measure and communicate their impact and ESG performance. We help design robust Impact/ESG Guidelines and support them with an impact measurement framework and Impact Toolbox. </p>
-            <p><strong>Due Diligence</strong><br>Impact46 supports responsible investors in the development of processes and tools that add an ‘impact lens’ to the investment process. We help define criteria to be utilized during the due diligence of potential investees to assess their effective capacity to deliver social impact. Our approach is pragmatic: beyond traditional ‘ESG checklists’, we develop tools that are tailored to the size and specific needs of the investor. If useful, we can join – as advisors – your investment committee(s) and contribute our experience to your investment decisions. </p>
-            <p><strong>Portfolio Management and Impact Monitoring</strong><br>We help you develop systems and tools to constantly monitor the impact of your portfolio. This includes helping you define the process and criteria to be used for each of your investees and the way data from your portfolio can be effectively aggregated in a dashboard that supports your decisions and provides material for internal and external communication on your investments’ social impact.  </p>
-            <p><strong>Capacity Development of Investees</strong><br>Impact46 has developed a robust methodology to support your investees and help them define and assess social impact. Our approach is designed to help maximize your Portfolio companies’ social impact and strengthen their capacity to measure and communicate it to investors.</p>
-            <p><strong>B Corp Certification</strong><br>As a certified B Corporation, Impact46 can help you decide if your firm, Family Office or investment fund would benefit from becoming a B Corporation. If you choose to pursue certification, our team will assist you throughout this process.</p>
-            <button type="button" class="read__less" >Read less</button>
-         </div>
-      </section>
-      <section class="banner-with-text-wrapper services-for-non-profits listing" id="services-for-nonprofits">
-         <div class="content-wrapepr">
-            <div class="m-image-wrapper">
-               <img src="assets/Nicola-tracks-mobileresize.jpg" alt="Services for Non-Profits" class="img-responsive">
-            </div>
-         <div class="sqs-block-content">
-            <h1 style="text-align:center;" data-target="#section_five">Services for Non-Profits</h1>
-            <p class="collapse"><strong>Impact46 offers services to non-profits and social enterprises that help maximize their impact. Services allow non-profits to outsource work where they lack expertise and to upskill their teams by working with experienced professionals.</strong></p>
-            <button type="button" class="read__More" data-target="#section_five">Read more</button>
-         </div>
-      </section>
-      <section class="social-impact welcome-page Responsible-Investors m-content" id="section_five">
-         <div class="page-content">
-            <p><strong>3 Services for Non-Profits and Social Enterprises</strong></p>
-            <p><strong>Impact+ Review</strong><br>The Review offers an opportunity for the leadership to step back from day-to-day operations, assess strategic opportunities and plan for the future. We apply our signature Impact+ tool to carry out a thorough analysis of Programs, Operations and Governance and to offer actionable recommendations. we then help put in place/stremghten a robust Impact Framework that helps the organisation clearly define, measure and communicate impact.</p>
-            <p><strong>Impact Framework</strong><br>Impact46 has unparalleled experience in helping nonprofits and social entreprises demonstrate their impact. We do so by developing a robust Impact Framework for the organisation. This strcutures how the organisation:</p>
-            <ul data-rte-list="default">
-               <li>
-                  <p>Defines impact</p>
-               </li>
-               <li>
-                  <p>Delivers impact</p>
-               </li>
-               <li>
-                  <p>Monitors impact</p>
-               </li>
-               <li>
-                  <p>Reports impact</p>
-               </li>
-               <li>
-                  <p>Communicates impact</p>
-               </li>
-            </ul>
-            <p><strong>Impact Evaluations</strong><br>We can co-design with the organization and implement evaluations/reviews that quantify their impact, as a whole or on in relation to a specific program or project.</p>
-            <button type="button" class="read__less" >Read less</button>
-         </div>
-      </section>
-      <section class="banner-with-text-wrapper founder-team" id="founder-and-team">
-         <div class="content-wrapepr">
-			<div class="m-image-wrapper ">
-               <img src="assets/resize/team-mobile.jpg" alt="Founder, Board & Team" class="img-responsive">
-            </div>
-            <div class="sqs-block-content m-text-toggle">
-               <h1 style="text-align:center;" data-target="#section_six">Founder, Board & Team</h1>
-               <p><strong>Impact46 is more than a team. <br>It’s a network of individuals who care deeply about social and environmental impact <br>and use their unique expertise to help achieve it. </strong></p>
-				<button type="button" class="read__More" data-target="#section_six">Read more</button>
-			</div>
-      </section>
-      <section class="social-impact welcome-page founder-team-content" id="section_six">
-      <div class="row">
+      </div>
+   </div>
+</section>
+<section class="banner-with-text-wrapper listing" id="approach">
+   <div class="content-wrapepr ">
+      <div class="m-image-wrapper ">
+         <img src="assets/resize/approch-banner-mobile.jpg" alt="our apporoach" class="img-responsive">
+      </div>
+      <div class="sqs-block-content">
+         <h1 style="text-align:center;" data-target="#section_one">Our Approach</h1>
+         <p class="collapse"><strong>Impact46 is an innovative impact firm.<br>We raise both the quality and accessibility of strategic impact consulting globally.</strong> </p>
+         <button type="button" class="read__More" data-target="#section_one">Read more</button>
+      </div>
+   </div>
+</section>
+<section class="social-impact welcome-page m-content" id="section_one">
+   <div class="page-content">
+      <p>Since 2019 Impact46 has disrupted impact consulting. It continues to do so by offering:<br><br><strong>World-class experience<br></strong>i46 strives to provide the highest-quality impact consulting available globally. i46 Founder Nicola Crosta directly oversees every consulting project, working closely with some of the world’s most experienced social impact practitioners.<br><br><strong>Robust tools<br></strong>Clients benefit from advanced tools, methodologies and tech to design, implement and measure social impact programs.<br><br><strong>Day-to-day support<br></strong>i46 believes in the value of strategy, but is also committed to supporting clients in the day-to-day challenges of implementation.  </p>
+      <button type="button" class="read__less" >Read less</button>
+   </div>
+</section>
+
+
+<section class="banner-with-text-wrapper services-for-donners listing" id="services-for-donors">
+   <div class="content-wrapepr">
+      <div class="m-image-wrapper">
+         <img src="assets/resize/services-for-donner-mobile.jpg" alt="Services for Foundations" class="img-responsive">
+      </div>
+      <div class="sqs-block-content">
+         <h1 style="text-align:center;" data-target="#section_two">Services for Foundations</h1>
+         <p class="collapse"><strong>Impact46 offers world-class services to corporate and family Foundations. These services allow donors to transform their vision for impact into a reality. </strong></p>
+         <button type="button" class="read__More" data-target="#section_two">Read more</button>
+      </div>
+   </div>
+</section>
+<section class="social-impact welcome-page m-content" id="section_two">
+   <div class="page-content">
+      <p><strong>5 Services for Foundations </strong></p>
+      <p><strong>Impact Strategy</strong><br>i46 helps Foundations define their impact strategy or review existing strategies. This typically takes the shape of a robust 3-5-year Strategy and Guidelines that clearly define what the organisation aims to achieve, how, with what resources and by when. </p>
+      <p><strong>Impact Framework</strong><br>i46 helps Foundations put in place a rigorous impact framework: this outlines what impact the organisation aims to achieve and how this is measured and communicated. </p>
+      <p><strong>Impact Monitoring</strong><br>i46 helps monitor Portfolios of social purpose organizations and track their impact. Our team can deliver professional Impact Reports that are tailored to your needs. </p>
+      <p><strong>Capacity Development</strong><br>i46 can help reinforce the capacity of grantees by offering a unique, comprehensive capacity development in various key areas (strategy, M&E, fundraising). </p>
+      <p><strong>Special Initiatives</strong><br>Whether the goal is to open a new Foundation, start a global initiative for impact or set up a social enterprise incubator, i46 provides exceptional experience to donors and investors building their impact endeavors. </p>
+      <button type="button" class="read__less" >Read less</button>
+   </div>
+</section>
+
+<section class="banner-with-text-wrapper services-for-corporates listing" id="services-for-corporates">
+   <div class="content-wrapepr">
+      <div class="m-image-wrapper">
+         <img src="assets/resize/services-for-corporates-mobile.jpg" alt="Services for Corporates" class="img-responsive">
+      </div>
+      <div class="sqs-block-content">
+         <h1 style="text-align:center;" data-target="#section_three">Services for Corporates</h1>
+         <p class="collapse"><strong>Impact46 supports companies in their efforts to clearly define, deliver, measure and communicate social and environmental impact. </strong></p>
+         <button type="button" class="read__More" data-target="#section_three">Read more</button>
+      </div>
+   </div>
+</section>
+<section class="social-impact welcome-page m-content" id="section_three">
+   <div class="page-content">
+      <p><strong>5 Services for Corporates </strong></p>
+      <p><strong>Impact/Sustainability Strategy</strong><br>i46 works with company Boards and Sustainability/CSR Departments and helps them define or review their overall impact strategy. We use our flagship Impact+ methodology to provide a comprehensive assessment of the company’s potential positive impact. We then help design a robust impact framework that allows the company to clearly define, deliver, measure and communicate impact. </p>
+      <p><strong>Impact/ESG Monitoring</strong><br>i46 provides companies with the tools and technologies needed to monitor and measure their social impact. We help define what needs to be measured and how information can be collected, stored and utilized. </p>
+      <p><strong>Impact Communication</strong><br>We help companies develop a robust narrative and materials to communicate social impact in a professional and ethical manner, within and outside of their organization. We leverage our direct experience with international organizations to help articulate clearly the link between the company’s efforts and existing policy frameworks. Special focus is placed on the company’s contribution to the United Nations SDGs.
+      </p>
+      <p><strong>Ecosystem Reviews and Due Diligence</strong><br>i46 supports companies that aim to start social impact initiatives in new sectors/geographies by performing in-depth research on the related ecosystems as well as professional due diligence on potential partners (ex. local non-profits). </p>
+      <p><strong>B Corp Certification</strong><br>As a certified B Corporation, Impact46 can help you decide if your company would benefit from becoming a B Corporation. If the company chooses to pursue certification, our team can provide assistance throughout the process. </p>
+      <button type="button" class="read__less" >Read less</button>
+   </div>
+</section>
+
+<section class="banner-with-text-wrapper services-for-investors listing" id="services-for-investors">
+   <div class="content-wrapepr">
+      <div class="m-image-wrapper">
+         <img src="assets/resize/services-investors-1-mobile.jpg" alt="Services for Responsible Investors" class="img-responsive">
+      </div>
+      <div class="sqs-block-content">
+         <h1 style="text-align:center;" data-target="#section_four">Services for Responsible Investors</h1>
+         <p class="collapse"><strong>Impact46 supports investors who aim to clearly define, maximize and measure the social impact of their investments. Our clients include a wide range of asset owners and investors: Private Banks, Private Equity funds, Family Offices, Pension Funds and Impact investment Funds.</strong></p>
+         <button type="button" class="read__More" data-target="#section_four">Read more</button>
+      </div>
+</section>
+<section class="social-impact welcome-page  Responsible-Investors m-content" id="section_four">
+   <div class="page-content">
+      <p><strong>5 Services for Responsible Investors</strong></p>
+      <p><strong>Impact Guidelines/Toolbox </strong><br>Impact46 supports investors aiming to clearly define, measure and communicate their impact and ESG performance. We help design robust Impact/ESG Guidelines and support them with an impact measurement framework and Impact Toolbox. </p>
+      <p><strong>Due Diligence</strong><br>Impact46 supports responsible investors in the development of processes and tools that add an ‘impact lens’ to the investment process. We help define criteria to be utilized during the due diligence of potential investees to assess their effective capacity to deliver social impact. Our approach is pragmatic: beyond traditional ‘ESG checklists’, we develop tools that are tailored to the size and specific needs of the investor. If useful, we can join – as advisors – your investment committee(s) and contribute our experience to your investment decisions. </p>
+      <p><strong>Portfolio Management and Impact Monitoring</strong><br>We help you develop systems and tools to constantly monitor the impact of your portfolio. This includes helping you define the process and criteria to be used for each of your investees and the way data from your portfolio can be effectively aggregated in a dashboard that supports your decisions and provides material for internal and external communication on your investments’ social impact.  </p>
+      <p><strong>Capacity Development of Investees</strong><br>Impact46 has developed a robust methodology to support your investees and help them define and assess social impact. Our approach is designed to help maximize your Portfolio companies’ social impact and strengthen their capacity to measure and communicate it to investors.</p>
+      <p><strong>B Corp Certification</strong><br>As a certified B Corporation, Impact46 can help you decide if your firm, Family Office or investment fund would benefit from becoming a B Corporation. If you choose to pursue certification, our team will assist you throughout this process.</p>
+      <button type="button" class="read__less" >Read less</button>
+   </div>
+</section>
+<section class="banner-with-text-wrapper services-for-non-profits listing" id="services-for-nonprofits">
+   <div class="content-wrapepr">
+      <div class="m-image-wrapper">
+         <img src="assets/Nicola-tracks-mobileresize.jpg" alt="Services for Non-Profits" class="img-responsive">
+      </div>
+      <div class="sqs-block-content">
+         <h1 style="text-align:center;" data-target="#section_five">Services for Non-Profits</h1>
+         <p class="collapse"><strong>Impact46 offers services to non-profits and social enterprises that help maximize their impact. Services allow non-profits to outsource work where they lack expertise and to upskill their teams by working with experienced professionals.</strong></p>
+         <button type="button" class="read__More" data-target="#section_five">Read more</button>
+      </div>
+</section>
+<section class="social-impact welcome-page Responsible-Investors m-content" id="section_five">
+   <div class="page-content">
+      <p><strong>3 Services for Non-Profits and Social Enterprises</strong></p>
+      <p><strong>Impact+ Review</strong><br>The Review offers an opportunity for the leadership to step back from day-to-day operations, assess strategic opportunities and plan for the future. We apply our signature Impact+ tool to carry out a thorough analysis of Programs, Operations and Governance and to offer actionable recommendations. we then help put in place/stremghten a robust Impact Framework that helps the organisation clearly define, measure and communicate impact.</p>
+      <p><strong>Impact Framework</strong><br>Impact46 has unparalleled experience in helping nonprofits and social entreprises demonstrate their impact. We do so by developing a robust Impact Framework for the organisation. This strcutures how the organisation:</p>
+      <ul data-rte-list="default">
+         <li>
+            <p>Defines impact</p>
+         </li>
+         <li>
+            <p>Delivers impact</p>
+         </li>
+         <li>
+            <p>Monitors impact</p>
+         </li>
+         <li>
+            <p>Reports impact</p>
+         </li>
+         <li>
+            <p>Communicates impact</p>
+         </li>
+      </ul>
+      <p><strong>Impact Evaluations</strong><br>We can co-design with the organization and implement evaluations/reviews that quantify their impact, as a whole or on in relation to a specific program or project.</p>
+      <button type="button" class="read__less" >Read less</button>
+   </div>
+</section>
+
+<section class="banner-with-text-wrapper services-for-investors listing i46_Lab" id="i46-Lab">
+   <div class="content-wrapepr">
+      <div class="m-image-wrapper">
+         <img src="assets/resize/services-investors-1-mobile.jpg" alt="Services for Responsible Investors" class="img-responsive">
+      </div>
+      <div class="sqs-block-content">
+         <h1 style="text-align:center;" data-target="#section_six">i46 Lab</h1>
+         <p class="collapse"><strong>We push the boundaries of innovation by testing new solutions and conducting research on key social and environmental topics.</strong></p>
+         <button type="button" class="read__More" data-target="#section_six">Read more</button>
+      </div>
+</section>
+<section class="social-impact welcome-page i46--lab m-content" id="section_six">
+   <div class="page-content">
+      <p><strong>An important part of Impact46 mission is to foster innovation across the ‘impact’ sector. We do so by continuously testing new tools, approaches, methodologies and by conducting research commissioned by our partners. Our Lab’s work covers the following 4 key areas:</strong></p>
+      <p><strong>Sector Research:</strong><br>Covering trends in the philanthropic, NGO and impact investment sectors</p>
+      <p><strong>Benchmark Research</strong><br>comparing the practices of Foundations and NGOs</p>
+      <p><strong>Thematic Research</strong><br>Targeting key social and environmental issues (ex. climate, ageing, disability)</p>
+      <p><strong>Innovation Research</strong><br>Designing and testing new tools (ex. impact measurement or impact visualisation tools)</p>
+      <p>Publicly available research conducted by Impact46 can be found here.</p>
+      <p>Publications repository page</strong><br>The here should link to a page, not connected directly to the website menu, where all our recent publications are listed.<br>I would chose a very simple format, with a list of publications.<br>I would just include a bullet with a link to the pdf/page of the publication (I suppose the link can be an hyperlink connected to the title or similar (whatever looks nice/leaner).<br>In some cases the publication is found on the website of one of our partners, in only one case for now it is our own publication (the Climate one with UBS of which we need to upload a pdf).<br>At the bottom of the list I am also including a couple of articles I wrote, so the link should be to my LinkedIn post.</p>
+      <p><strong>Publications to be included are:</strong><br>Covering trends in the philanthropic, NGO and impact investment sectors</p>
+      <ul data-rte-list="default" class="i46_lab_link">
+         <li>
+            <p>The Big Blue Report (2023) – powered by UBS Optimus Foundation</p>
+         </li>
+         <li>
+            <p><a href="https://www.personio.foundation/news/whitepaper-the-hr-challenges-of-ngos/" target="_blank">The HR Challenges of Nonprofits (2023) – powered by Personio Foundation</a></p>
+         </li>
+         <li>
+            <p><a href="https://www.fitforlife.foundation/news/fit-for-life-outlook-report/" target="_blank">The Fit for Life Outlook (2023) – powered by Fit for Life Foundation</a></p>
+         </li>
+         <li>
+            <p><a href="https://www.eria.org/publications/technology-and-disability-trends-and-opportunities-in-the-digital-economy-in-asean/" target="_blank">Technology and Disability: Trends and Opportunities in the ASEAN Region (2023) – powered by ERIA / ASEAN</a></p>
+         </li>
+         <li>
+            <p><a href="https://www.eria.org/publications/social-enterprises-and-disability-fostering-innovation-awareness-and-social-impact-in-the-asean-region/" target="_blank">Disability and Social Enterprises: Trends and Opportunities (2022) – powered by ERIA / ASEAN</a></p>
+         </li>
+         <li>
+            <p><a href="https://www.linkedin.com/pulse/esg-from-marketing-impact-nicola-crosta/?trackingId=6sAT0jYaTwGokDf5zK7%2FgQ%3D%3D" target="_blank">ESG: from Marketing to Impact (2021) – by Nicola Crosta</a></p>
+         </li>
+         <li>
+            <p><a href="https://www.linkedin.com/pulse/rapid-response-grant-tool-foundations-help-grantees-nicola-crosta/?trackingId=f9gjWyo0SjazDpjjg5BFYQ%3D%3D" target="_blank">Rapid Response Grants in the Context of the COVID 19 crisis (2020) – by Nicola Crosta</a></p>
+         </li>
+         <li>
+            <p><a href="https://www.linkedin.com/pulse/strategic-giving-why-how-foundations-should-move-from-nicola-crosta/?trackingId=6sAT0jYaTwGokDf5zK7%2FgQ%3D%3D" target="_blank">Strategic Giving: Why and How Foundations Should Move to Unrestricted Grants (2019) – by Nicola Crosta</a></p>
+         </li>
+         <li>
+            <p><a href="https://www.linkedin.com/pulse/think-before-you-give-impact-philanthropy-vs-impulse-nicola-crosta/?trackingId=f9gjWyo0SjazDpjjg5BFYQ%3D%3D" target="_blank">From Impulse to Impact: Why and How Philanthropy Needs to Evolve (2017) – by Nicola Crosta</a></p>
+         </li>
+      </ul>
+      <button type="button" class="read__less" >Read less</button>
+   </div>
+</section>
+
+
+<section class="banner-with-text-wrapper founder-team" id="founder-and-team">
+   <div class="content-wrapepr">
+      <div class="m-image-wrapper ">
+         <img src="assets/resize/team-mobile.jpg" alt="Founder, Board & Team" class="img-responsive">
+      </div>
+      <div class="sqs-block-content m-text-toggle">
+         <h1 style="text-align:center;" data-target="#section_seven">Founder, Board & Team</h1>
+         <p><strong>Impact46 is more than a team. <br>It’s a network of individuals who care deeply about social and environmental impact <br>and use their unique expertise to help achieve it. </strong></p>
+         <button type="button" class="read__More" data-target="#section_seven">Read more</button>
+      </div>
+</section>
+<section class="social-impact welcome-page founder-team-content" id="section_seven">
+   <div class="row">
       <div class="ceo-column-3">
-      <div class="img-wrapper">
-      <img src="assets/resize/nicola-bw.jpg">
-      <h2 ><strong>Nicola Crosta <br>Founder and CEO</strong></h2>
-      </div>
+         <div class="img-wrapper">
+            <img src="assets/resize/nicola-bw.jpg">
+            <h2 ><strong>Nicola Crosta <br>Founder and CEO</strong></h2>
+         </div>
       </div>
       <div class="ceo-column-9">
-      <div class="page-content ceo-content">
-      <p>Nicola Crosta is one of the world’s leading experts on impact investment, philanthropy and non-profit management, with extensive experience among a wide range of impact-driven organizations.<br><strong>United Nations and OECD:</strong> Nicola held senior management positions in international organizations for a total of 18 years. At the United Nations in New York, Nicola played a key role in helping to define the global Sustainable Development Goals (SDGs).<br><strong>Epic Foundation:</strong> As Executive Vice President and Board Member, Nicola helped to build one of the most innovative philanthropic Foundations from the ground up. At Epic, Nicola oversaw one of the largest NGO and donor surveys ever performed globally and the development of cutting-edge non-profits’ due diligence and social impact monitoring methodologies.<br><strong>Baan Dek Foundation:</strong> Nicola is the Founder of Baan Dek, an award-winning social enterprise that provides access to services to thousands of migrant kids across Southeast Asia. In recent years, Baan Dek has become a strategic implementing partner of UNICEF and won the MIT Award for Social Innovation (Solve 2017).<br><strong>Author and lecturer: </strong>Nicola’s articles and books on social impact, development economics and philanthropy have been extensively translated and published globally. He has been visiting lecturer on social impact and innovation at MIT, Harvard, Sciences Po and Hong Kong University.<br>Nicola Crosta directly oversees support to every client. Depending on the nature and scope of the task, i46 selects a team from some of the finest, most experienced social impact practitioners globally. These world-class professionals represent diverse areas of expertise, ensuring impact among any sector or geographic scope.</p>
+         <div class="page-content ceo-content">
+            <p>Nicola Crosta is one of the world’s leading experts on impact investment, philanthropy and non-profit management, with extensive experience among a wide range of impact-driven organizations.<br><strong>United Nations and OECD:</strong> Nicola held senior management positions in international organizations for a total of 18 years. At the United Nations in New York, Nicola played a key role in helping to define the global Sustainable Development Goals (SDGs).<br><strong>Epic Foundation:</strong> As Executive Vice President and Board Member, Nicola helped to build one of the most innovative philanthropic Foundations from the ground up. At Epic, Nicola oversaw one of the largest NGO and donor surveys ever performed globally and the development of cutting-edge non-profits’ due diligence and social impact monitoring methodologies.<br><strong>Baan Dek Foundation:</strong> Nicola is the Founder of Baan Dek, an award-winning social enterprise that provides access to services to thousands of migrant kids across Southeast Asia. In recent years, Baan Dek has become a strategic implementing partner of UNICEF and won the MIT Award for Social Innovation (Solve 2017).<br><strong>Author and lecturer: </strong>Nicola’s articles and books on social impact, development economics and philanthropy have been extensively translated and published globally. He has been visiting lecturer on social impact and innovation at MIT, Harvard, Sciences Po and Hong Kong University.<br>Nicola Crosta directly oversees support to every client. Depending on the nature and scope of the task, i46 selects a team from some of the finest, most experienced social impact practitioners globally. These world-class professionals represent diverse areas of expertise, ensuring impact among any sector or geographic scope.</p>
+         </div>
       </div>
-      </div>
-      </div>
-      <div class="row advisory-border-wrapper member-wrapper">
-         <div class="column-12">
+   </div>
+   <div class="row advisory-border-wrapper member-wrapper">
+      <div class="column-12">
          <h2><strong>Advisory Board</strong></h2>
-         </div>
-         <div class="column-4">
-            <div  class="column-contentimage" style="background-image:url('assets/resize/Board-Patrick.jpg')"></div>
+      </div>
+      <div class="column-4">
+         <div  class="column-contentimage" style="background-image:url('assets/resize/Board-Patrick.jpg')"></div>
          <div class="column-content">
-         <img src="assets/resize/Board-Patrick.jpg">
-         <p><strong>Patrick Fournier</strong><br>Chairman | CalpersHotels &amp; HotelFactory<br>     </p>
+            <img src="assets/resize/Board-Patrick.jpg">
+            <p><strong>Patrick Fournier</strong><br>Chairman | CalpersHotels &amp; HotelFactory<br>     </p>
          </div>
 
 
-         </div>
-         <div class="column-4">
-            <div  class="column-contentimage" style="background-image:url('assets/resize/assia-new-photo.jpg')"></div>
+      </div>
+      <div class="column-4">
+         <div  class="column-contentimage" style="background-image:url('assets/resize/assia-new-photo.jpg')"></div>
          <div class="column-content">
-         <img src="assets/resize/assia-new-photo.jpg">
-         <p><strong>Assia Grazioli </strong><br>Founder & Partner | Muse Capital<br>Board of Directors | Juventus Football Club  </p>
+            <img src="assets/resize/assia-new-photo.jpg">
+            <p><strong>Assia Grazioli </strong><br>Founder & Partner | Muse Capital<br>Board of Directors | Juventus Football Club  </p>
          </div>
-         </div>
-         <div class="column-4">
-            <div  class="column-contentimage" style="background-image:url('assets/resize/Board+Member+-+Kennedy+Odede.jpg')"></div>
+      </div>
+      <div class="column-4">
+         <div  class="column-contentimage" style="background-image:url('assets/resize/Board+Member+-+Kennedy+Odede.jpg')"></div>
          <div class="column-content">
-         <img src="assets/resize/Board+Member+-+Kennedy+Odede.jpg">
-         
-         <p><strong>Kennedy Odede</strong><br>Founder & CEO | SHOFCO</p>
+            <img src="assets/resize/Board+Member+-+Kennedy+Odede.jpg">
+
+            <p><strong>Kennedy Odede</strong><br>Founder & CEO | SHOFCO</p>
          </div>
+      </div>
+
+      <div class="column-4">
+         <div  class="column-contentimage" style="background-image:url('assets/resize/CM-N-B.jpg')"></div>
+         <div class="column-content">
+            <img src="assets/resize/CM-N-B.jpg">
+            <p><strong>Clémence Marchisio</strong><br>Former corporate lawyer | Private Equity/ M&A</p>
          </div>
-        
-         <div class="column-4">
-            <div  class="column-contentimage" style="background-image:url('assets/resize/CM-N-B.jpg')"></div>
-        <div class="column-content">
-        <img src="assets/resize/CM-N-B.jpg">      
-        <p><strong>Clémence Marchisio</strong><br>Former corporate lawyer | Private Equity/ M&A</p>
-        </div>
-        </div>
-        
-         <div class="column-4">
+      </div>
+
+      <div class="column-4">
          <div  class="column-contentimage" style="background-image:url('assets/resize/Board-Viria.jpg')"></div>
          <div class="column-content">
-         <img src="assets/resize/Board-Viria.jpg">
-         <p><strong>Viria Vichit-Vadakan</strong><br>Researcher | MIT Media Lab<br>Co-Founder | G-Lab & GSSE, Thammasat University    </p>
-         </div>
-         </div>
-         <div class="column-4">
-            <div  class="column-contentimage" style="background-image:url('assets/resize/Board+Member+-+Ruben+Vardanyan.jpg')"></div>
-         <div class="column-content">
-         <img src="assets/resize/Board+Member+-+Ruben+Vardanyan.jpg">
-         <p><strong>Ruben Vardanyan</strong><br>Co-Founder | Aurora Humanitarian Initiative<br>     </p>
-         </div>
-         </div>
-        
-         <div class="column-4">
-         <div  class="column-contentimage" style="background-image:url('assets/resize/Carlo-Pittis.jpg')"></div>
-         <div class="column-content">
-         <img src="assets/resize/Carlo-Pittis.jpg">
-         <p><strong>Carlo Pittis</strong><br>Founder and CEO | Movimento srl  Società Benefit<br>     </p>
-         </div>
-         </div>
-        
-         <div class="column-4">
-         <div class="column-content">
-            <div  class="column-contentimage" style="background-image:url('assets/Logo_Impact46-08_Grey.jpg')"></div>
-         <img src="assets/Logo_Impact46-08_Grey.jpg">
-         <p><strong>François Dassault</strong><br>Entrepreneur & Social Investor<br>     </p>
-         </div>
-         </div>
-         </div>
-      <div class="row advisory-border-wrapper staff-wrapper">
-
-         <div class="column-12">
-         <h2><strong>Management</strong></h2>
-         </div>
-         <div class="column-4">
-         <div class="column-content">
-         <img src="assets/nicola-bw.jpeg">
-         <p><strong>Nicola Crosta<a class="social-icon-wrapper" href="https://www.linkedin.com/in/nicolacrosta/" target="_blank"><img class="social-icon"  src="assets/linkdin-icon.png"></a></strong><br>CEO<br>     </p>
-         </div>
-         </div>
-         <div class="column-4">
-         <div class="column-content">
-         <img src="assets/resize/Franck_new.jpg">
-         <p><strong>Franck Cachia <a class="social-icon-wrapper" href="https://www.linkedin.com/in/franckcachia/" target="_blank"><img class="social-icon" src="assets/linkdin-icon.png"></a></strong><br>Senior Impact Advisor</p>
-         </div>
-         </div>
-         <div class="column-4">
-         <div class="column-content">
-         <img src="assets/resize/elisa.jpg">
-         <p><strong>Elisa Sabbion<a class="social-icon-wrapper" href="https://www.linkedin.com/in/elisa-sabbion-9725a75/" target="_blank"><img class="social-icon" src="assets/linkdin-icon.png"></a></strong><br>Senior Impact Advisor</p>
-         </div>
-	 </div>
-         <div class="column-4">
-         <div class="column-content">
-         <img src="assets/resize/Giorgia Valleriani profile pic.jpeg">
-         <p><strong>Giorgia Valleriani<a class="social-icon-wrapper" href="https://www.linkedin.com/in/giorgia-valleriani-620894a1/" target="_blank"><img class="social-icon" src="assets/linkdin-icon.png"></a></strong><br>Senior Impact Advisor</p>
-         </div>
-         </div>
-	 <div class="column-4">
-         <div class="column-content">
-         <img src="assets/loic.png">
-         <p><strong>Loic Kaessner<a class="social-icon-wrapper" href="https://www.linkedin.com/in/loic-kaessner-6a423415b/" target="_blank"><img class="social-icon" src="assets/linkdin-icon.png"></a></strong><br>Strategy & Impact Advisor</p>
-         </div>
-         </div>
-        <button type="button" class="read__less">Read less</button>
-         </div>
-      
-	  </section>
-      <section class="banner-with-text-wrapper client-banner" id="clients-1">
-         <div class="content-wrapepr">
-			<div class="m-image-wrapper ">
-			   <img src="assets/resize/earth-mobile.jpg" alt="Our Clients" class="img-responsive">
-			</div>
-            <div class="sqs-block-content m-text-toggle">
-               <h1 style="text-align:center;" data-target="#section_seven">Our Clients</h1>
-               <p><strong>The organizations supported by i46 are extremely diverse. <br>What they have in common is a serious commitment to social and environmental impact.</strong></p>
-			   <button type="button" class="read__More" data-target="#section_seven">Read more</button>
-            </div>
-      </div></section>
-      <section class="social-impact welcome-page client-logo-wrapper" id="section_seven">
-         <div class="row">
-            <div class="column-4">
-               <div class=" logo-content-wrapper">
-                  <p><strong>Foundations</strong></p>
-                  <div class="row">
-                     <div class="logo-wrpper">
-                        <img src="assets/resize/fbs.jpg">
-                     </div>
-                     <div class="logo-wrpper">
-                        <img src="assets/resize/messi.jpg">
-                     </div>                     
-                     <div class="logo-wrpper">
-                        <img src="assets/aurora.png">
-                     </div>
-                     <div class="logo-wrpper">
-                        <img src="assets/resize/fondation_de_lap.jpg">
-                     </div>       
-                     <div class="logo-wrpper">
-                        <img src="assets/resize/fit.jpg">
-                     </div>              
-                     <div class="logo-wrpper">
-                        <img src="assets/personio.jpg">
-                     </div>                     
-                     <div class="logo-wrpper">
-                        <img src="assets/resize/iffff.jpg">
-                     </div>
-                     <div class="logo-wrpper">
-                        <img src="assets/resize/rcrt.jpg">
-                     </div>
-					 <div class="logo-wrpper">
-                        <img src="assets/Novo_Nordisk(foundations).png">
-                     </div>
-					  <div class="logo-wrpper">
-                        <img src="assets/FondationlaFrance s'engage_(foundations).png">
-                     </div>
-					
-                  </div>
-               </div>
-            </div>
-            <div class="column-4">
-               <div class=" logo-content-wrapper">
-                  <p><strong>Investors and Corporates</strong></p>
-                  <div class="row">
-                     <div class="logo-wrpper">
-                        <img src="assets/danone.png">
-                     </div>
-                     <div class="logo-wrpper">
-                        <img src="assets/generali.png">
-                     </div>
-                     <div class="logo-wrpper">
-                        <img src="assets/nestle.jpg">
-                     </div>
-                     <div class="logo-wrpper">
-                        <img src="assets/purnima.png">
-                     </div>    
-                     <div class="logo-wrpper">
-                        <img src="assets/BNP Paribas.png">
-                     </div>   
-                     <div class="logo-wrpper">
-                        <img src="assets/ubs.png">
-                     </div>
-                     <div class="logo-wrpper">
-                        <img src="assets/sp.jpg">
-                     </div>
-                     <div class="logo-wrpper">
-                        <img src="assets/len.png">
-                     </div>
-					 <div class="logo-wrpper">
-                        <img src="assets/IFC_logo_(corporates).png">
-                     </div>
-					  <div class="logo-wrpper">
-                        <img src="assets/divergent_investments_logo.png">
-                     </div>
-					 
-					 
-                  </div>
-               </div>
-            </div>
-            <div class="column-4">
-               <div class="logo-content-wrapper">
-                  <p><strong>Non-profits & Social Enterprises</strong></p>
-                  <div class="row">
-                     <div class="logo-wrpper">
-                        <img src="assets/resize/avpn_logo.jpg">
-                     </div>
-                     <div class="logo-wrpper">
-                        <img src="assets/social_builder.jpg">
-                     </div>
-                     <div class="logo-wrpper">
-                        <img src="assets/singa.jpg">
-                     </div>
-                     <div class="logo-wrpper">
-                        <img src="assets/dssg_solve.jpg">
-                     </div>
-                     <div class="logo-wrpper">
-                        <img src="assets/pnnnn.png">
-                     </div>
-                     <div class="logo-wrpper">
-                        <img src="assets/pemimpin.png">
-                     </div>
-                     <div class="logo-wrpper">
-                        <img src="assets/circle.jpg">
-                     </div>
-                     <div class="logo-wrpper">
-                        <img src="assets/resize/steps.jpg">
-                     </div>
-                      <div class="logo-wrpper">
-                        <img src="assets/Philanthropy_Impact(non profits).png">
-                     </div>
-					  <div class="logo-wrpper">
-                        <img src="assets/DUO_for_a_JOB.png">
-                     </div>
-					 
-                  </div>
-               </div>
-            </div>
-         <button type="button" class="read__less">Read less</button>
-		 </div>
-      </section>
-      <section class="banner-with-text-wrapper contact-us-banner" id="contact">
-         <div class="content-wrapepr">
-            <div class="sqs-block-content">
-               <h1 style="text-align:center;">Contact Us</h1>
-               <p><strong><br>Interested to learn more? Get in touch.</br></strong></p>
-            </div>
-         </div>
-      </section>
-      <section class="social-impact welcome-page contact-form">
-      <div class="row">
-         <div class="column-12 text-center ">
-            <p class="inquiries-text-wrapper"><strong>For inquiries and more information on Impact46, <br>contact us at </strong>
-               <a href="mailto:info@impact46.co"><strong>impact@impact46.co</strong></a><strong>
-               or complete the form below. 
-               </strong>
-            </p>
+            <img src="assets/resize/Board-Viria.jpg">
+            <p><strong>Viria Vichit-Vadakan</strong><br>Researcher | MIT Media Lab<br>Co-Founder | G-Lab & GSSE, Thammasat University    </p>
          </div>
       </div>
-      <div class="form-wrapper">
-      <div class="form-wrapper-innter">
-      <form data-success-redirect action="#" method="POST">
-         <div class="row">
-            <div class="title">Name <span class="required">*</span></div>
-            <div class="column-6">
-               <div class="form-group">
-               <input type="text"
-                      name="First Name"
-                      maxlength="30"
-                      class="field-element"
-                      required
-               >
-               <label for="#">First Name</label>
+      <div class="column-4">
+         <div  class="column-contentimage" style="background-image:url('assets/resize/Board+Member+-+Ruben+Vardanyan.jpg')"></div>
+         <div class="column-content">
+            <img src="assets/resize/Board+Member+-+Ruben+Vardanyan.jpg">
+            <p><strong>Ruben Vardanyan</strong><br>Co-Founder | Aurora Humanitarian Initiative<br>     </p>
+         </div>
+      </div>
+
+      <div class="column-4">
+         <div  class="column-contentimage" style="background-image:url('assets/resize/Carlo-Pittis.jpg')"></div>
+         <div class="column-content">
+            <img src="assets/resize/Carlo-Pittis.jpg">
+            <p><strong>Carlo Pittis</strong><br>Founder and CEO | Movimento srl  Società Benefit<br>     </p>
+         </div>
+      </div>
+
+      <div class="column-4">
+         <div class="column-content">
+            <div  class="column-contentimage" style="background-image:url('assets/Logo_Impact46-08_Grey.jpg')"></div>
+            <img src="assets/Logo_Impact46-08_Grey.jpg">
+            <p><strong>François Dassault</strong><br>Entrepreneur & Social Investor<br>     </p>
+         </div>
+      </div>
+   </div>
+   <div class="row advisory-border-wrapper staff-wrapper">
+
+      <div class="column-12">
+         <h2><strong>Management</strong></h2>
+      </div>
+      <div class="column-4">
+         <div class="column-content">
+            <img src="assets/nicola-bw.jpeg">
+            <p><strong>Nicola Crosta<a class="social-icon-wrapper" href="https://www.linkedin.com/in/nicolacrosta/" target="_blank"><img class="social-icon"  src="assets/linkdin-icon.png"></a></strong><br>CEO<br>     </p>
+         </div>
+      </div>
+      <div class="column-4">
+         <div class="column-content">
+            <img src="assets/resize/Franck_new.jpg">
+            <p><strong>Franck Cachia <a class="social-icon-wrapper" href="https://www.linkedin.com/in/franckcachia/" target="_blank"><img class="social-icon" src="assets/linkdin-icon.png"></a></strong><br>Senior Impact Advisor</p>
+         </div>
+      </div>
+      <div class="column-4">
+         <div class="column-content">
+            <img src="assets/resize/elisa.jpg">
+            <p><strong>Elisa Sabbion<a class="social-icon-wrapper" href="https://www.linkedin.com/in/elisa-sabbion-9725a75/" target="_blank"><img class="social-icon" src="assets/linkdin-icon.png"></a></strong><br>Senior Impact Advisor</p>
+         </div>
+      </div>
+      <div class="column-4">
+         <div class="column-content">
+            <img src="assets/resize/Giorgia Valleriani profile pic.jpeg">
+            <p><strong>Giorgia Valleriani<a class="social-icon-wrapper" href="https://www.linkedin.com/in/giorgia-valleriani-620894a1/" target="_blank"><img class="social-icon" src="assets/linkdin-icon.png"></a></strong><br>Senior Impact Advisor</p>
+         </div>
+      </div>
+      <div class="column-4">
+         <div class="column-content">
+            <img src="assets/loic.png">
+            <p><strong>Loic Kaessner<a class="social-icon-wrapper" href="https://www.linkedin.com/in/loic-kaessner-6a423415b/" target="_blank"><img class="social-icon" src="assets/linkdin-icon.png"></a></strong><br>Strategy & Impact Advisor</p>
+         </div>
+      </div>
+      <button type="button" class="read__less">Read less</button>
+   </div>
+
+</section>
+<section class="banner-with-text-wrapper client-banner" id="clients-1">
+   <div class="content-wrapepr">
+      <div class="m-image-wrapper ">
+         <img src="assets/resize/earth-mobile.jpg" alt="Our Clients" class="img-responsive">
+      </div>
+      <div class="sqs-block-content m-text-toggle">
+         <h1 style="text-align:center;" data-target="#section_eight">Our Clients</h1>
+         <p><strong>The organizations supported by i46 are extremely diverse. <br>What they have in common is a serious commitment to social and environmental impact.</strong></p>
+         <button type="button" class="read__More" data-target="#section_eight">Read more</button>
+      </div>
+   </div></section>
+<section class="social-impact welcome-page client-logo-wrapper" id="section_eight">
+   <div class="row">
+      <div class="column-4">
+         <div class=" logo-content-wrapper">
+            <p><strong>Foundations</strong></p>
+            <div class="row">
+               <div class="logo-wrpper">
+                  <img src="assets/resize/fbs.jpg">
                </div>
-            </div>
-            <div class="column-6">
-               <div class="form-group">
-               <input type="text"
-                      name="Last Name"
-                      maxlength="30"
-                      class="field-element"
-                     required>
-               <label for="#">Last Name</label>
-            </div>
-            </div>
-            <div class="column-12">
-           <div class="title">Email Address <span class="required">*</span></div>
-            <div class="form-group">
-               <input class="field-element"
-                      name="Email Address"
-                      required
-                      type="email"
-                      autocomplete="email"
-                      spellcheck="false"
-               >
+               <div class="logo-wrpper">
+                  <img src="assets/resize/messi.jpg">
+               </div>
+               <div class="logo-wrpper">
+                  <img src="assets/aurora.png">
+               </div>
+               <div class="logo-wrpper">
+                  <img src="assets/resize/fondation_de_lap.jpg">
+               </div>
+               <div class="logo-wrpper">
+                  <img src="assets/resize/fit.jpg">
+               </div>
+               <div class="logo-wrpper">
+                  <img src="assets/personio.jpg">
+               </div>
+               <div class="logo-wrpper">
+                  <img src="assets/resize/iffff.jpg">
+               </div>
+               <div class="logo-wrpper">
+                  <img src="assets/resize/rcrt.jpg">
+               </div>
+               <div class="logo-wrpper">
+                  <img src="assets/Novo_Nordisk(foundations).png">
+               </div>
+               <div class="logo-wrpper">
+                  <img src="assets/FondationlaFrance s'engage_(foundations).png">
+               </div>
 
             </div>
-            <div class="title">Subject <span class="required">*</span></div>
-            <div class="form-group">
-               <input class="field-element"
-                      name="Subject"
-                      required
-                      type="text"
-                      autocomplete="email"
-                      spellcheck="false"
-               >
+         </div>
+      </div>
+      <div class="column-4">
+         <div class=" logo-content-wrapper">
+            <p><strong>Investors and Corporates</strong></p>
+            <div class="row">
+               <div class="logo-wrpper">
+                  <img src="assets/danone.png">
+               </div>
+               <div class="logo-wrpper">
+                  <img src="assets/generali.png">
+               </div>
+               <div class="logo-wrpper">
+                  <img src="assets/nestle.jpg">
+               </div>
+               <div class="logo-wrpper">
+                  <img src="assets/purnima.png">
+               </div>
+               <div class="logo-wrpper">
+                  <img src="assets/BNP Paribas.png">
+               </div>
+               <div class="logo-wrpper">
+                  <img src="assets/ubs.png">
+               </div>
+               <div class="logo-wrpper">
+                  <img src="assets/sp.jpg">
+               </div>
+               <div class="logo-wrpper">
+                  <img src="assets/len.png">
+               </div>
+               <div class="logo-wrpper">
+                  <img src="assets/IFC_logo_(corporates).png">
+               </div>
+               <div class="logo-wrpper">
+                  <img src="assets/divergent_investments_logo.png">
+               </div>
+
 
             </div>
-            <div class="title">Message <span class="required">*</span></div>
-            <div class="form-group">
+         </div>
+      </div>
+      <div class="column-4">
+         <div class="logo-content-wrapper">
+            <p><strong>Non-profits & Social Enterprises</strong></p>
+            <div class="row">
+               <div class="logo-wrpper">
+                  <img src="assets/resize/avpn_logo.jpg">
+               </div>
+               <div class="logo-wrpper">
+                  <img src="assets/social_builder.jpg">
+               </div>
+               <div class="logo-wrpper">
+                  <img src="assets/singa.jpg">
+               </div>
+               <div class="logo-wrpper">
+                  <img src="assets/dssg_solve.jpg">
+               </div>
+               <div class="logo-wrpper">
+                  <img src="assets/pnnnn.png">
+               </div>
+               <div class="logo-wrpper">
+                  <img src="assets/pemimpin.png">
+               </div>
+               <div class="logo-wrpper">
+                  <img src="assets/circle.jpg">
+               </div>
+               <div class="logo-wrpper">
+                  <img src="assets/resize/steps.jpg">
+               </div>
+               <div class="logo-wrpper">
+                  <img src="assets/Philanthropy_Impact(non profits).png">
+               </div>
+               <div class="logo-wrpper">
+                  <img src="assets/DUO_for_a_JOB.png">
+               </div>
+
+            </div>
+         </div>
+      </div>
+      <button type="button" class="read__less">Read less</button>
+   </div>
+</section>
+<section class="banner-with-text-wrapper contact-us-banner" id="contact">
+   <div class="content-wrapepr">
+      <div class="sqs-block-content">
+         <h1 style="text-align:center;">Contact Us</h1>
+         <p><strong><br>Interested to learn more? Get in touch.</br></strong></p>
+      </div>
+   </div>
+</section>
+<section class="social-impact welcome-page contact-form">
+   <div class="row">
+      <div class="column-12 text-center ">
+         <p class="inquiries-text-wrapper"><strong>For inquiries and more information on Impact46, <br>contact us at </strong>
+            <a href="mailto:info@impact46.co"><strong>impact@impact46.co</strong></a><strong>
+               or complete the form below.
+            </strong>
+         </p>
+      </div>
+   </div>
+   <div class="form-wrapper">
+      <div class="form-wrapper-innter">
+         <form data-success-redirect action="#" method="POST">
+            <div class="row">
+               <div class="title">Name <span class="required">*</span></div>
+               <div class="column-6">
+                  <div class="form-group">
+                     <input type="text"
+                            name="First Name"
+                            maxlength="30"
+                            class="field-element"
+                            required
+                     >
+                     <label for="#">First Name</label>
+                  </div>
+               </div>
+               <div class="column-6">
+                  <div class="form-group">
+                     <input type="text"
+                            name="Last Name"
+                            maxlength="30"
+                            class="field-element"
+                            required>
+                     <label for="#">Last Name</label>
+                  </div>
+               </div>
+               <div class="column-12">
+                  <div class="title">Email Address <span class="required">*</span></div>
+                  <div class="form-group">
+                     <input class="field-element"
+                            name="Email Address"
+                            required
+                            type="email"
+                            autocomplete="email"
+                            spellcheck="false"
+                     >
+
+                  </div>
+                  <div class="title">Subject <span class="required">*</span></div>
+                  <div class="form-group">
+                     <input class="field-element"
+                            name="Subject"
+                            required
+                            type="text"
+                            autocomplete="email"
+                            spellcheck="false"
+                     >
+
+                  </div>
+                  <div class="title">Message <span class="required">*</span></div>
+                  <div class="form-group">
               <textarea
                       name="Message"
                       cols="30"
@@ -926,18 +988,18 @@ section.social-impact.welcome-page.founder-team-content button.read__less {
                       class="field-element"
                       required
                       style="resize: none;"></textarea>
-            </div>
+                  </div>
 
-            <div class="form-group">
-               <input type='hidden' name='form-name' value='form 1' />
-               <input type="submit" type="submit" value="Submit" class="contact-form-btn">
+                  <div class="form-group">
+                     <input type='hidden' name='form-name' value='form 1' />
+                     <input type="submit" type="submit" value="Submit" class="contact-form-btn">
+                  </div>
+               </div>
             </div>
-            </div>
-         </div>
-      </form>
-           
-      <div class="bottom-text">
-         <p></p>
+         </form>
+
+         <div class="bottom-text">
+            <p></p>
             <div class="bottom_address">
                <div class="ceo-column-10">
                   <p>Impact46 Limited<br>Unit 2005 – CRE Center<br>889 Chueng Sha Wan Road<br>Kowloon – Hong Kong<br>Tel. (852) 31561696</p>
@@ -946,15 +1008,15 @@ section.social-impact.welcome-page.founder-team-content button.read__less {
                   <img src="assets/resize/120464252_374633363566463_8380453735956362333_n.jpg" alt="b corp" class="img-responsive">
                </div>
             </div>
-         <p>Impact46 is compliant with the Laws and Regulations of Hong Kong, including PDPO, the Personal Data Privacy Ordinance (equivalent of the European Union GDPR/RGPD). To learn more about our Privacy Policy, please click <a
-            href="privacy-policy.html" target="_blank">here.</a></p>
-         <p class="copy-right">© 2021 Impact46</p>
-      </div>
+            <p>Impact46 is compliant with the Laws and Regulations of Hong Kong, including PDPO, the Personal Data Privacy Ordinance (equivalent of the European Union GDPR/RGPD). To learn more about our Privacy Policy, please click <a
+                    href="privacy-policy.html" target="_blank">here.</a></p>
+            <p class="copy-right">© 2021 Impact46</p>
+         </div>
 
-          </div>
-          </div>
-         </section>
-     </div>
-     
-   </body>
+      </div>
+   </div>
+</section>
+</div>
+
+</body>
 </html>
