@@ -310,7 +310,7 @@ section.banner-section-wrapper {
 }
 
 .banner-inner-wrapper,
-.content-wrapepr {
+.content-wrapper {
 	position: relative;
 	z-index: 2;
 	padding-top: 156px;
@@ -406,7 +406,7 @@ section.banner-section-wrapper {
 	color: #fff;
 }
 
-.content-wrapepr p {
+.content-wrapper p {
 	text-align: center;
 	padding-top: 1px;
 	line-height: 2em;
@@ -445,12 +445,12 @@ section.banner-section-wrapper {
 	background-image: url(../assets/treeresize.jpg);
 }
 
-.content-wrapepr .sqs-block-content {
+.content-wrapper .sqs-block-content {
 	padding: 0 90px;
 	line-height: 2em;
 }
 
-.services-for-donners .content-wrapepr .sqs-block-content {
+.services-for-donners .content-wrapper .sqs-block-content {
 	padding: 8.5px 116px;
 	text-align: center;
 }
@@ -563,7 +563,7 @@ a.social-icon-wrapper {
 	text-align: center;
 }
 
-.logo-wrpper {
+.logo-wrapper {
 	overflow: hidden;
 	flex-wrap: wrap;
 	width: calc(50% - 30px);
@@ -573,7 +573,7 @@ a.social-icon-wrapper {
     display: flex;
 }
 
-.logo-wrpper img {
+.logo-wrapper img {
 	max-width: 100%;
 	max-height: 135px
 }
@@ -849,13 +849,13 @@ li {
 
 @media (max-width:900px) {
 
-	.content-wrapepr .sqs-block-content,
+	.content-wrapper .sqs-block-content,
 	.sqs-block-content {
 		padding: 0px;
 
 	}
 
-	.services-for-donners .content-wrapepr .sqs-block-content {
+	.services-for-donners .content-wrapper .sqs-block-content {
 		padding: 8.5px 0;
 	}
 
@@ -1128,12 +1128,12 @@ li {
 		padding: 0;
 	}
 
-	.content-wrapepr .sqs-block-content {
+	.content-wrapper .sqs-block-content {
 		padding-left: 100px;
 		padding-right: 100px;
 	}
 
-	.services-for-donners .content-wrapepr .sqs-block-content {
+	.services-for-donners .content-wrapper .sqs-block-content {
 		padding: 8.5px 0;
 		padding-left: 100px;
 		padding-right: 100px;
@@ -1144,7 +1144,7 @@ li {
 	}
 
 	.banner-inner-wrapper,
-	.content-wrapepr {
+	.content-wrapper {
 		padding-top: 60px;
 		padding-bottom: 60px;
 	}
@@ -1155,12 +1155,12 @@ li {
 }
 
 @media (max-width:640px) {
-	.content-wrapepr .sqs-block-content {
+	.content-wrapper .sqs-block-content {
 		padding-left: 0;
 		padding-right: 0px;
 	}
 
-	.services-for-donners .content-wrapepr .sqs-block-content {
+	.services-for-donners .content-wrapper .sqs-block-content {
 		padding: 8.5px 0;
 		padding-left: 0x;
 		padding-right: 0px;
@@ -1202,12 +1202,12 @@ li {
 		flex-direction: row !important;
 	}
 
-	.logo-wrpper {
+	.logo-wrapper {
 		width: 50%;
 		margin: auto;
 	}
 
-	.logo-wrpper img {
+	.logo-wrapper img {
 		max-width: 100%;
 		max-height: 100%;
 		padding: 30px;
